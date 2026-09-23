@@ -454,7 +454,7 @@
     .service-card {
 
   min-height:
-    300px;
+    265px;
 
   padding:
     20px;
@@ -1644,8 +1644,8 @@
 
 
   const nextPeople =
-    service.nextPeople ||
-    [];
+  (service.nextPeople || [])
+    .slice(0, 2);
 
 
   const waitingCount =
