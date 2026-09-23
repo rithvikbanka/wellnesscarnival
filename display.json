@@ -2,9 +2,515 @@
   "success": true,
   "event": {
     "name": "YPG India Wellness Carnival 2026",
-    "date": "",
-    "dateLabel": ""
+    "date": "2026-09-23",
+    "dateLabel": "Wednesday, 23 September 2026"
   },
-  "services": [],
-  "updatedAt": ""
+  "services": [
+    {
+      "serviceId": "SVC_CARDIAC",
+      "serviceName": "Cardiac & General Screening",
+      "provider": "Sparsh Hospitals",
+      "duration": 15,
+      "displayCapacity": 5,
+      "location": {
+        "name": "Wellness Screening Area",
+        "area": "Wellness Screening Area",
+        "floor": ""
+      },
+      "currentSlotStartTime": "10:30",
+      "currentSlotEndTime": "11:00",
+      "nowServing": [
+        {
+          "displayName": "Syamasundar J.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Kumar S.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Vikas G.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Deerajkumar M.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Jeevan M.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Rishav K.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Pooja B.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "John C.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Udaykiran M.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Shivkumar D.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 68
+    },
+    {
+      "serviceId": "SVC_BCA",
+      "serviceName": "Body Composition Analysis",
+      "provider": "Sparsh Hospitals",
+      "duration": 15,
+      "displayCapacity": 5,
+      "location": {
+        "name": "Wellness Screening Area",
+        "area": "Wellness Screening Area",
+        "floor": ""
+      },
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "10:30",
+      "nowServing": [
+        {
+          "displayName": "Govindu P.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Vennela P.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Monisha R.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Jeevan M.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Manjunath R.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Bhanulakshmi A.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Premdass A.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Yougesh C.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Pnraval",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Pushpa M.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 81
+    },
+    {
+      "serviceId": "SVC_BMD",
+      "serviceName": "Bone Mineral Density",
+      "provider": "Sparsh Hospitals",
+      "duration": 15,
+      "displayCapacity": 5,
+      "location": {
+        "name": "Wellness Screening Area",
+        "area": "Wellness Screening Area",
+        "floor": ""
+      },
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "11:45",
+      "nowServing": [
+        {
+          "displayName": "Dayananda B.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Balajiram R.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Syamasundar J.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Ruthvik J.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Charan N.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "CALLED"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Kumar S.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Raju B.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Piyush L.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "kavya C.",
+          "startTime": "12:15",
+          "endTime": "12:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Biswajit P.",
+          "startTime": "12:45",
+          "endTime": "13:00",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 14
+    },
+    {
+      "serviceId": "SVC_POSTURE",
+      "serviceName": "AI Posture Assessment",
+      "provider": "Sparsh Hospitals",
+      "duration": 15,
+      "displayCapacity": 5,
+      "location": {
+        "name": "Wellness Screening Area",
+        "area": "Wellness Screening Area",
+        "floor": ""
+      },
+      "currentSlotStartTime": "10:30",
+      "currentSlotEndTime": "11:15",
+      "nowServing": [
+        {
+          "displayName": "Dayananda B.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Subba J.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Khushboo S.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Akshit D.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Vignesh K.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Balajiram R.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Geethika C.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Kumarikhushi S.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Monalisa H.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Premdass A.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 61
+    },
+    {
+      "serviceId": "SVC_DENTAL",
+      "serviceName": "Dental Screening",
+      "provider": "Clove Dental",
+      "duration": 15,
+      "displayCapacity": 5,
+      "location": {
+        "name": "Dental Screening Room",
+        "area": "Dental Screening Room",
+        "floor": ""
+      },
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "10:45",
+      "nowServing": [
+        {
+          "displayName": "Vignesh K.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Monalisa H.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Sanjana P.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Natraj V.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Govindu P.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "CALLED"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Kirankumar B.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Dayananda B.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Hemanth K.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Srinidhi J.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Subba J.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 40
+    },
+    {
+      "serviceId": "SVC_EYE",
+      "serviceName": "Eye Screening",
+      "provider": "Vasan Eye Care",
+      "duration": 15,
+      "displayCapacity": 5,
+      "location": {
+        "name": "Eye Screening Area",
+        "area": "Eye Screening Area",
+        "floor": ""
+      },
+      "currentSlotStartTime": "11:00",
+      "currentSlotEndTime": "12:15",
+      "nowServing": [
+        {
+          "displayName": "Uttam C.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Jayesh T.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Kumarikhushi S.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Subba J.",
+          "startTime": "11:45",
+          "endTime": "12:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Gourish D.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "CALLED"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Ganeshan M.",
+          "startTime": "12:15",
+          "endTime": "12:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Natraj V.",
+          "startTime": "12:15",
+          "endTime": "12:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Syamasundar J.",
+          "startTime": "12:30",
+          "endTime": "12:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Preranav G.",
+          "startTime": "12:45",
+          "endTime": "13:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Anasoori K.",
+          "startTime": "12:45",
+          "endTime": "13:00",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 23
+    },
+    {
+      "serviceId": "SVC_COUNSELLING",
+      "serviceName": "Psychologist / Counsellor",
+      "provider": "Amaha Hospital",
+      "duration": 30,
+      "displayCapacity": 1,
+      "location": {
+        "name": "Counselling Room",
+        "area": "Counselling Room",
+        "floor": ""
+      },
+      "currentSlotStartTime": "13:00",
+      "currentSlotEndTime": "13:30",
+      "nowServing": [
+        {
+          "displayName": "Disha T.",
+          "startTime": "13:00",
+          "endTime": "13:30",
+          "status": "CALLED"
+        }
+      ],
+      "nextPeople": [
+        {
+          "displayName": "Udaykiran M.",
+          "startTime": "13:30",
+          "endTime": "14:00",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 3
+    }
+  ],
+  "updatedAt": "2026-09-23T15:06:25.852Z"
 }
