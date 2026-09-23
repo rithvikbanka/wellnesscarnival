@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#0B1220"
+  >
+
+  <title>
+    YPG India Wellness Carnival 2026
+  </title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;
+      background: #07111F;
+      color: #F8FAFC;
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .app {
+      min-height: 100vh;
+      padding: 28px 34px 34px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 26px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 46px;
+      height: 46px;
+      object-fit: contain;
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .brand-title {
+      font-size: 25px;
+      font-weight: 750;
+      line-height: 1.1;
+      letter-spacing: -0.4px;
+    }
+
+    .brand-subtitle {
+      margin-top: 5px;
+      color: #94A3B8;
+      font-size: 13px;
+    }
+
+    .event-meta {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .date-label {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .connection {
+      margin-top: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #94A3B8;
+      font-size: 12px;
+    }
+
+    .connection-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22C55E;
+    }
+
+    .connection-dot.offline {
+      background: #EF4444;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      flex: 1;
+    }
+
+    .service-card {
+      min-height: 310px;
+      background: #101C2D;
+      border: 1px solid #1E2C40;
+      border-radius: 22px;
+      padding: 21px;
+      display: flex;
+      flex-direction: column;
+      box-shadow:
+        0 15px 45px rgba(0,0,0,.18);
+    }
+
+    .service-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .service-name {
+      font-size: 19px;
+      font-weight: 760;
+      line-height: 1.25;
+    }
+
+    .service-provider {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #94A3B8;
+    }
+
+    .capacity-pill {
+      flex-shrink: 0;
+      border-radius: 999px;
+      padding: 7px 10px;
+      background: #17253A;
+      color: #CBD5E1;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .location {
+      margin-top: 15px;
+      color: #94A3B8;
+      font-size: 12px;
+    }
+
+    .section {
+      margin-top: 18px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 9px;
+    }
+
+    .section-title {
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .section-time {
+      color: #64748B;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .serving-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .person-chip {
+      min-height: 47px;
+      padding: 9px 11px;
+      border-radius: 12px;
+      background: #18283F;
+      border: 1px solid #243752;
+      display: flex;
+      align-items: center;
+    }
+
+    .person-name {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .empty-state {
+      min-height: 47px;
+      border-radius: 12px;
+      border: 1px dashed #2A3A52;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #64748B;
+      font-size: 12px;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .next-list {
+      display: grid;
+      gap: 7px;
+    }
+
+    .next-person {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      background: #0C1727;
+      border: 1px solid #17253A;
+    }
+
+    .next-name {
+      font-size: 12px;
+      font-weight: 650;
+      color: #E2E8F0;
+    }
+
+    .next-time {
+      color: #64748B;
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+
+    .service-footer {
+      margin-top: auto;
+      padding-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      border-top: 1px solid #1A293B;
+    }
+
+    .waiting {
+      font-size: 11px;
+      color: #94A3B8;
+    }
+
+    .waiting strong {
+      color: #F8FAFC;
+    }
+
+    .updated {
+      color: #64748B;
+      font-size: 10px;
+      text-align: right;
+    }
+
+    .status-screen {
+      position: fixed;
+      inset: 0;
+      background: #07111F;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      z-index: 99;
+    }
+
+    .status-box {
+      width: min(560px, 100%);
+      padding: 35px;
+      border-radius: 24px;
+      background: #101C2D;
+      border: 1px solid #23344B;
+      text-align: center;
+    }
+
+    .status-box h1 {
+      margin: 0 0 10px;
+      font-size: 25px;
+    }
+
+    .status-box p {
+      margin: 0;
+      color: #94A3B8;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 1250px) {
+
+      .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+    }
+
+    @media (max-width: 780px) {
+
+      .app {
+        padding: 18px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .event-meta {
+        text-align: left;
+      }
+
+      .service-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+
+    <div class="brand">
+
+      <img
+        id="logo"
+        src="https://www.image2url.com/r2/default/files/1789826520122-fba4a533-46aa-45a1-b6a8-2a070b2b7a63.png"
+        alt="YPG India"
+      >
+
+      <div class="brand-text">
+
+        <div class="brand-title">
+          Wellness Carnival 2026
+        </div>
+
+        <div class="brand-subtitle">
+          Now Serving
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="event-meta">
+
+      <div
+        id="dateLabel"
+        class="date-label"
+      >
+        Loading…
+      </div>
+
+      <div class="connection">
+
+        <span
+          id="connectionDot"
+          class="connection-dot"
+        ></span>
+
+        <span id="connectionText">
+          Connecting…
+        </span>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <main
+    id="serviceGrid"
+    class="service-grid"
+  >
+  </main>
+
+</div>
+
+
+<div
+  id="statusScreen"
+  class="status-screen"
+  style="display:none;"
+>
+
+  <div class="status-box">
+
+    <h1>
+      Wellness Display
+    </h1>
+
+    <p id="statusMessage">
+      Loading display…
+    </p>
+
+  </div>
+
+</div>
+
+
+<script>
+
+  /*
+   * CHANGE ONLY THIS VALUE.
+   *
+   * Example:
+   *
+   * https://raw.githubusercontent.com/rithvik/ypg-wellness-display/main/display.json
+   */
+  const DATA_URL =
+    'https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/ypg-wellness-display/main/display.json';
+
+
+  const REFRESH_INTERVAL =
+    5000;
+
+
+  let latestSuccessfulData =
+    null;
+
+
+  function escapeHtml(value) {
+
+    return String(value ?? '')
+
+      .replace(/&/g, '&amp;')
+
+      .replace(/</g, '&lt;')
+
+      .replace(/>/g, '&gt;')
+
+      .replace(/"/g, '&quot;')
+
+      .replace(/'/g, '&#039;');
+
+  }
+
+
+  function formatTime(time) {
+
+    if (!time) {
+      return '';
+    }
+
+    const match =
+      String(time)
+        .match(/^(\d{1,2}):(\d{2})$/);
+
+    if (!match) {
+      return time;
+    }
+
+    let hour =
+      Number(match[1]);
+
+    const minute =
+      match[2];
+
+    const suffix =
+      hour >= 12
+        ? 'PM'
+        : 'AM';
+
+    hour =
+      hour % 12 || 12;
+
+    return `${hour}:${minute} ${suffix}`;
+
+  }
+
+
+  function formatRange(start, end) {
+
+    if (!start) {
+      return '';
+    }
+
+    return `${formatTime(start)}${end ? ` – ${formatTime(end)}` : ''}`;
+
+  }
+
+
+  function formatUpdatedTime(iso) {
+
+    if (!iso) {
+      return '';
+    }
+
+    const date =
+      new Date(iso);
+
+    if (
+      Number.isNaN(
+        date.getTime()
+      )
+    ) {
+      return '';
+    }
+
+    return date.toLocaleTimeString(
+      'en-IN',
+      {
+        hour: 'numeric',
+        minute: '2-digit'
+      }
+    );
+
+  }
+
+
+  function getCapacity(service) {
+
+    return Math.max(
+      1,
+      Number(
+        service.displayCapacity ||
+        service.capacity ||
+        1
+      )
+    );
+
+  }
+
+
+  function renderCurrentPeople(service) {
+
+    const current =
+      Array.isArray(
+        service.nowServing
+      )
+        ? service.nowServing
+        : [];
+
+
+    if (!current.length) {
+
+      return `
+        <div class="empty-state">
+          Nobody is currently being served
+        </div>
+      `;
+
+    }
+
+
+    return `
+
+      <div class="serving-grid">
+
+        ${current
+          .map(
+            person => `
+              <div class="person-chip">
+                <div class="person-name">
+                  ${escapeHtml(
+                    person.displayName ||
+                    'Employee'
+                  )}
+                </div>
+              </div>
+            `
+          )
+          .join('')}
+
+      </div>
+
+    `;
+
+  }
+
+
+  function renderNextPeople(service) {
+
+    const next =
+      Array.isArray(
+        service.nextPeople
+      )
+        ? service.nextPeople
+        : [];
+
+
+    if (!next.length) {
+
+      return `
+        <div class="empty-state">
+          No one waiting next
+        </div>
+      `;
+
+    }
+
+
+    return `
+
+      <div class="next-list">
+
+        ${next
+          .map(
+            person => `
+              <div class="next-person">
+
+                <span class="next-name">
+                  ${escapeHtml(
+                    person.displayName ||
+                    'Employee'
+                  )}
+                </span>
+
+                <span class="next-time">
+                  ${escapeHtml(
+                    formatTime(
+                      person.startTime
+                    )
+                  )}
+                </span>
+
+              </div>
+            `
+          )
+          .join('')}
+
+      </div>
+
+    `;
+
+  }
+
+
+  function renderService(service) {
+
+    const capacity =
+      getCapacity(service);
+
+
+    const current =
+      Array.isArray(
+        service.nowServing
+      )
+        ? service.nowServing
+        : [];
+
+
+    const currentRange =
+      service.currentSlotStartTime
+        ? formatRange(
+            service.currentSlotStartTime,
+            service.currentSlotEndTime
+          )
+        : '';
+
+
+    const location =
+      service.location &&
+      service.location.name
+        ? service.location.name
+        : 'Wellness Screening Area';
+
+
+    return `
+
+      <article class="service-card">
+
+        <div class="service-head">
+
+          <div>
+
+            <div class="service-name">
+              ${escapeHtml(
+                service.serviceName
+              )}
+            </div>
+
+            <div class="service-provider">
+              ${escapeHtml(
+                service.provider || ''
+              )}
+            </div>
+
+          </div>
+
+
+          <div class="capacity-pill">
+            ${capacity} ${capacity === 1 ? 'slot' : 'people'}
+          </div>
+
+        </div>
+
+
+        <div class="location">
+          📍 ${escapeHtml(location)}
+        </div>
+
+
+        <section class="section">
+
+          <div class="section-label">
+
+            <span class="section-title">
+              Now Serving
+            </span>
+
+            <span class="section-time">
+              ${escapeHtml(
+                currentRange
+              )}
+            </span>
+
+          </div>
+
+          ${renderCurrentPeople(service)}
+
+        </section>
+
+
+        <section class="section">
+
+          <div class="section-label">
+
+            <span class="section-title">
+              Next
+            </span>
+
+          </div>
+
+          ${renderNextPeople(service)}
+
+        </section>
+
+
+        <footer class="service-footer">
+
+          <div class="waiting">
+
+            <strong>
+              ${Number(
+                service.waitingCount || 0
+              )}
+            </strong>
+
+            waiting after current
+
+          </div>
+
+
+          <div class="updated">
+
+            Updated
+            ${escapeHtml(
+              formatUpdatedTime(
+                latestSuccessfulData?.updatedAt
+              )
+            )}
+
+          </div>
+
+        </footer>
+
+      </article>
+
+    `;
+
+  }
+
+
+  function render(data) {
+
+    latestSuccessfulData =
+      data;
+
+
+    document
+      .getElementById(
+        'dateLabel'
+      )
+      .textContent =
+        data.event?.dateLabel ||
+        data.event?.date ||
+        'Wellness Carnival';
+
+
+    const services =
+      Array.isArray(
+        data.services
+      )
+        ? data.services
+        : [];
+
+
+    document
+      .getElementById(
+        'serviceGrid'
+      )
+      .innerHTML =
+        services
+          .map(
+            renderService
+          )
+          .join('');
+
+
+    document
+      .getElementById(
+        'statusScreen'
+      )
+      .style
+      .display =
+        'none';
+
+  }
+
+
+  async function loadDisplay() {
+
+    try {
+
+      const url =
+        `${DATA_URL}?t=${Date.now()}`;
+
+
+      const response =
+        await fetch(
+          url,
+          {
+            method: 'GET',
+            cache: 'no-store'
+          }
+        );
+
+
+      if (!response.ok) {
+
+        throw new Error(
+          `Feed returned ${response.status}`
+        );
+
+      }
+
+
+      const data =
+        await response.json();
+
+
+      if (
+        !data ||
+        data.success === false
+      ) {
+
+        throw new Error(
+          data?.message ||
+          'Invalid display data'
+        );
+
+      }
+
+
+      render(data);
+
+
+      document
+        .getElementById(
+          'connectionText'
+        )
+        .textContent =
+          'Live';
+
+
+      document
+        .getElementById(
+          'connectionDot'
+        )
+        .classList
+        .remove(
+          'offline'
+        );
+
+
+    } catch (error) {
+
+      console.error(
+        'Display update failed:',
+        error
+      );
+
+
+      /*
+       * Keep the last known screen alive.
+       * Only show error screen if we have never
+       * successfully loaded anything.
+       */
+      if (!latestSuccessfulData) {
+
+        document
+          .getElementById(
+            'statusScreen'
+          )
+          .style
+          .display =
+            'flex';
+
+        document
+          .getElementById(
+            'statusMessage'
+          )
+          .textContent =
+            'Waiting for the live display feed…';
+
+      }
+
+
+      document
+        .getElementById(
+          'connectionText'
+        )
+        .textContent =
+          'Reconnecting…';
+
+
+      document
+        .getElementById(
+          'connectionDot'
+        )
+        .classList
+        .add(
+          'offline'
+        );
+
+    }
+
+  }
+
+
+  loadDisplay();
+
+
+  setInterval(
+    loadDisplay,
+    REFRESH_INTERVAL
+  );
+
+</script>
+
+</body>
+</html>
