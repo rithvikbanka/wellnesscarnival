@@ -197,25 +197,19 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Chandran M.",
+          "displayName": "Tulasi K.",
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
         },
         {
-          "displayName": "Tulasi K.",
+          "displayName": "Vandit K.",
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
         }
       ],
       "nextPeople": [
-        {
-          "displayName": "Vandit K.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
         {
           "displayName": "Deepaksudhan T.",
           "startTime": "11:15",
@@ -239,9 +233,15 @@
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Murali M.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 34
+      "waitingCount": 33
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:57:36.642Z"
+  "updatedAt": "2026-09-24T06:00:37.056Z"
 }
