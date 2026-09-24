@@ -393,13 +393,13 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Yash P.",
+          "displayName": "Shivakumar N.",
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "CALLED"
         }
       ],
-      "waitingCount": 25
+      "waitingCount": 23
     },
     {
       "serviceId": "SVC_EYE",
@@ -512,5 +512,5 @@
       "waitingCount": 4
     }
   ],
-  "updatedAt": "2026-09-24T07:19:46.259Z"
+  "updatedAt": "2026-09-24T07:20:36.052Z"
 }
