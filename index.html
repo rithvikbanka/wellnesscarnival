@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="theme-color" content="#f6f8fc">
-<title>YPG India Wellness Carnival 2026 — Thank You</title>
+<title>MSI India Wellness Carnival 2026 — Thank You</title>
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;width:100%;height:100%;overflow:hidden}
@@ -12,202 +12,284 @@ body{
   font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
   color:#152238;background:#f6f8fc;
 }
-.screen{height:100vh;display:grid;grid-template-rows:60% 40%;}
+.screen{
+  width:100vw;height:100vh;min-height:650px;
+  display:grid;grid-template-rows:60% 40%;
+  background:#f6f8fc;
+}
+
+/* HERO */
 .hero{
   position:relative;display:flex;align-items:center;justify-content:center;
-  text-align:center;padding:18px 40px 12px;overflow:hidden;
+  text-align:center;padding:22px 40px 18px;overflow:hidden;
   background:
-    radial-gradient(circle at 50% 35%,rgba(1,102,255,.055),transparent 36%),
+    radial-gradient(circle at 50% 26%,rgba(1,102,255,.055),transparent 34%),
     #f6f8fc;
   border-bottom:1px solid #e2e8f0;
 }
 .hero-inner{
-  width:min(1250px,94vw);display:flex;flex-direction:column;
-  align-items:center;transform:translateY(-4px);
+  position:relative;z-index:5;width:min(1100px,92vw);
+  display:flex;flex-direction:column;align-items:center;
 }
-.eyebrow{
-  color:#0166ff;font-size:clamp(10px,.7vw,14px);font-weight:800;
-  letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px;
+.brand-row{
+  display:flex;align-items:center;justify-content:center;gap:24px;
+  margin-bottom:18px;
 }
-.logo{width:clamp(230px,20vw,390px);height:auto;margin-bottom:16px}
+.brand-logo{
+  object-fit:contain;display:block;
+}
+.brand-logo.motorola{width:clamp(190px,15vw,300px);height:auto}
+.brand-divider{
+  width:1px;height:60px;background:#d7dde7;
+}
+.brand-logo.ypg{width:clamp(180px,14vw,270px);height:auto}
 .thank{
-  margin:0;font-size:clamp(58px,5.9vw,112px);line-height:.94;
-  font-weight:800;letter-spacing:-.055em;color:#152238;
+  margin:0;font-size:clamp(58px,6.15vw,116px);
+  line-height:.93;font-weight:680;letter-spacing:-.055em;color:#152238;
 }
 .event{
-  margin-top:14px;font-size:clamp(24px,2.15vw,40px);font-weight:700;
-  letter-spacing:-.03em;
+  margin-top:15px;font-size:clamp(22px,2vw,37px);
+  line-height:1.12;font-weight:680;letter-spacing:-.028em;
 }
 .copy{
-  max-width:980px;margin:13px auto 0;color:#667085;
-  font-size:clamp(14px,1.12vw,21px);line-height:1.5;font-weight:500;
+  max-width:870px;margin:12px auto 0;color:#667085;
+  font-size:clamp(14px,1.02vw,20px);line-height:1.55;font-weight:430;
 }
 .chip{
-  margin-top:17px;padding:10px 18px;border-radius:999px;
+  margin-top:17px;padding:9px 16px;border-radius:999px;
   border:1px solid #d8e6ff;background:rgba(255,255,255,.88);
-  color:#174ea6;font-size:clamp(10px,.8vw,15px);font-weight:750;
+  color:#174ea6;font-size:clamp(10px,.72vw,14px);font-weight:650;
   box-shadow:0 8px 22px rgba(20,32,51,.045);
 }
+
+/* CONFETTI: clipped to the 60% hero, above all hero text */
+.confetti-layer{
+  position:absolute;inset:0;z-index:10;overflow:hidden;
+  pointer-events:none;
+}
+.confetti{
+  position:absolute;top:-28px;display:block;
+  width:var(--size);height:calc(var(--size) * 1.8);
+  border-radius:2px;
+  opacity:.92;
+  transform:rotate(var(--rotate));
+  animation:fall var(--duration) linear infinite;
+  animation-delay:var(--delay);
+}
+.c-blue{background:#0166ff}
+.c-lime{background:#cde94b}
+.c-cyan{background:#12a7d8}
+.c-yellow{background:#ffd85c}
+.c-coral{background:#f28b82}
+.c-lavender{background:#a98cff}
+
+@keyframes fall{
+  0%{
+    transform:translate3d(0,-34px,0) rotate(0deg);
+    opacity:0;
+  }
+  8%{opacity:.92}
+  45%{
+    transform:translate3d(35px,38vh,0) rotate(170deg);
+  }
+  78%{
+    transform:translate3d(-28px,70vh,0) rotate(330deg);
+  }
+  100%{
+    transform:translate3d(18px,105vh,0) rotate(510deg);
+    opacity:0;
+  }
+}
+
+/* VOLUNTEERS */
 .volunteers{
-  display:flex;flex-direction:column;justify-content:flex-start;
-  overflow:hidden;background:#fff;padding:30px 0 18px;
+  position:relative;display:flex;flex-direction:column;justify-content:center;
+  overflow:hidden;background:#fff;padding:18px 0 20px;
 }
 .kicker{
-  text-align:center;color:#0166ff;font-size:clamp(10px,.72vw,14px);
-  font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+  text-align:center;color:#0166ff;font-size:clamp(9px,.65vw,13px);
+  font-weight:760;letter-spacing:.18em;text-transform:uppercase;
 }
 .vtitle{
-  text-align:center;margin-top:6px;font-size:clamp(28px,2.35vw,46px);
-  line-height:1.08;font-weight:750;letter-spacing:-.03em;
+  text-align:center;margin-top:6px;font-size:clamp(24px,1.95vw,39px);
+  line-height:1.08;font-weight:650;letter-spacing:-.03em;
 }
 .vcopy{
-  text-align:center;max-width:1050px;margin:9px auto 0;
-  padding:0 24px;color:#667085;font-size:clamp(13px,1vw,18px);
-  line-height:1.45;font-weight:500;
+  text-align:center;max-width:960px;margin:8px auto 0;padding:0 24px;
+  color:#667085;font-size:clamp(11px,.88vw,17px);line-height:1.42;font-weight:430;
 }
 .ticker{
-  position:relative;overflow:hidden;width:100%;margin-top:22px;
+  position:relative;overflow:hidden;width:100%;margin-top:18px;
 }
 .ticker:before,.ticker:after{
-  content:"";position:absolute;top:0;bottom:0;width:110px;z-index:2;
-  pointer-events:none;
+  content:"";position:absolute;top:0;bottom:0;width:110px;z-index:2;pointer-events:none;
 }
 .ticker:before{left:0;background:linear-gradient(90deg,#fff,transparent)}
 .ticker:after{right:0;background:linear-gradient(270deg,#fff,transparent)}
 .track{
   display:flex;width:max-content;gap:12px;padding-left:100vw;
-  animation:scroll 72s linear infinite;will-change:transform;
+  animation:scroll 76s linear infinite;will-change:transform;
 }
 .group{display:flex;gap:12px}
 .person{
-  flex:0 0 auto;display:flex;align-items:center;gap:11px;
-  height:58px;padding:0 20px 0 12px;border:1px solid #dfe5ee;
+  flex:0 0 auto;display:flex;align-items:center;
+  height:54px;padding:0 20px;border:1px solid #dfe5ee;
   border-radius:14px;background:#fbfcfe;white-space:nowrap;
   box-shadow:0 5px 16px rgba(20,32,51,.04);
 }
-.num{
-  width:32px;height:32px;display:grid;place-items:center;
-  border-radius:9px;background:#edf4ff;color:#0166ff;
-  font-size:10px;font-weight:800;
-}
-.person span:last-child{
-  font-size:clamp(13px,.95vw,18px);font-weight:700;letter-spacing:-.012em;
+.person span{
+  font-size:clamp(13px,.9vw,18px);
+  font-weight:560;letter-spacing:-.01em;color:#26344b;
 }
 .footer{
   display:flex;justify-content:center;align-items:center;gap:8px;
-  margin-top:13px;color:#7a869a;font-size:clamp(10px,.7vw,14px);
-  font-weight:650;
+  margin-top:13px;color:#7a869a;font-size:clamp(9px,.65vw,13px);
+  font-weight:520;
 }
 .dot{width:7px;height:7px;border-radius:50%;background:#18a957}
-@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(max-width:900px){
-  .screen{grid-template-rows:57% 43%}
-  .hero{padding:18px 20px}
-  .logo{width:clamp(190px,34vw,300px)}
+@keyframes scroll{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
 }
-@media(prefers-reduced-motion:reduce){.track{animation:none;transform:none;padding-left:20px}}
+@media(max-width:1000px){
+  .screen{grid-template-rows:58% 42%}
+  .hero{padding-left:24px;padding-right:24px}
+  .brand-row{gap:16px}
+  .brand-divider{height:48px}
+}
+@media(max-width:700px){
+  html,body{overflow:auto}
+  .screen{height:auto;min-height:100vh;grid-template-rows:auto auto}
+  .hero{min-height:58vh}
+  .volunteers{min-height:42vh}
+}
+@media(prefers-reduced-motion:reduce){
+  .track{animation:none;transform:none;padding-left:20px}
+  .confetti{animation:none;display:none}
+}
 </style>
 </head>
 <body>
 <main class="screen">
-<section class="hero">
-  <div class="hero-inner">
-    <img class="logo"
-      src="https://www.image2url.com/r2/default/files/1789826520122-fba4a533-46aa-45a1-b6a8-2a070b2b7a63.png"
-      alt="YPG India">
-    <h1 class="thank">Thank You!</h1>
-    <div class="event">YPG India Wellness Carnival 2026</div>
-    <p class="copy">
-      Thank you for showing up, getting involved, and making these two days
-      of wellness, connection, and good energy so special. Every little moment
-      made this event what it was.
-    </p>
-    <div class="chip">23–24 September 2026 · Thank you for being part of it.</div>
-  </div>
-</section>
 
-<section class="volunteers">
-  <div class="kicker">With gratitude</div>
-  <div class="vtitle">A huge thank you to our volunteers ❤️</div>
-  <div class="vcopy">
-    To everyone who showed up, stepped in, helped things move, and kept the
-    energy going — thank you. You made this happen, and you made it special.
-  </div>
+  <section class="hero">
 
-  <div class="ticker">
-    <div class="track">
-      <div class="group">
-        <div class="person"><span class="num">01</span><span>Shanthosh Nuka</span></div>
-<div class="person"><span class="num">02</span><span>Geethanjali S Kumar</span></div>
-<div class="person"><span class="num">03</span><span>Balaji R</span></div>
-<div class="person"><span class="num">04</span><span>Balasubramanya Chinnappa</span></div>
-<div class="person"><span class="num">05</span><span>Balu Mahendranath Saki</span></div>
-<div class="person"><span class="num">06</span><span>Banti Kiritbhai Patel</span></div>
-<div class="person"><span class="num">07</span><span>Bhavan Teja Reddy Gade</span></div>
-<div class="person"><span class="num">08</span><span>Chaitanya Kowsik</span></div>
-<div class="person"><span class="num">09</span><span>Charan Kumar Reddy Kannappareddy</span></div>
-<div class="person"><span class="num">10</span><span>Deerajkumar M</span></div>
-<div class="person"><span class="num">11</span><span>Geethika Chappidi</span></div>
-<div class="person"><span class="num">12</span><span>HEMANTH Kumar</span></div>
-<div class="person"><span class="num">13</span><span>Hitarth Vaghela</span></div>
-<div class="person"><span class="num">14</span><span>Jahnavi Logani</span></div>
-<div class="person"><span class="num">15</span><span>Nithish Shetty</span></div>
-<div class="person"><span class="num">16</span><span>Om Timbadiya</span></div>
-<div class="person"><span class="num">17</span><span>Poojitha Rachamadugu</span></div>
-<div class="person"><span class="num">18</span><span>Raaga Chakravarthy</span></div>
-<div class="person"><span class="num">19</span><span>Rajiv Hegde</span></div>
-<div class="person"><span class="num">20</span><span>Rishi Nikhilesh Damerla</span></div>
-<div class="person"><span class="num">21</span><span>Rithvik Banka</span></div>
-<div class="person"><span class="num">22</span><span>Arjun Rupavatia</span></div>
-<div class="person"><span class="num">23</span><span>Sahana B C</span></div>
-<div class="person"><span class="num">24</span><span>Saurabh Dwivedi</span></div>
-<div class="person"><span class="num">25</span><span>Shashidhar B Badiger</span></div>
-<div class="person"><span class="num">26</span><span>Smit Satani</span></div>
-<div class="person"><span class="num">27</span><span>Sriharish Varma</span></div>
-<div class="person"><span class="num">28</span><span>Thejeswara Rachamallu</span></div>
-<div class="person"><span class="num">29</span><span>Venkatesh A</span></div>
-<div class="person"><span class="num">30</span><span>Yug Gandhi</span></div>
-      </div>
-      <div class="group" aria-hidden="true">
-        <div class="person"><span class="num">01</span><span>Shanthosh Nuka</span></div>
-<div class="person"><span class="num">02</span><span>Geethanjali S Kumar</span></div>
-<div class="person"><span class="num">03</span><span>Balaji R</span></div>
-<div class="person"><span class="num">04</span><span>Balasubramanya Chinnappa</span></div>
-<div class="person"><span class="num">05</span><span>Balu Mahendranath Saki</span></div>
-<div class="person"><span class="num">06</span><span>Banti Kiritbhai Patel</span></div>
-<div class="person"><span class="num">07</span><span>Bhavan Teja Reddy Gade</span></div>
-<div class="person"><span class="num">08</span><span>Chaitanya Kowsik</span></div>
-<div class="person"><span class="num">09</span><span>Charan Kumar Reddy Kannappareddy</span></div>
-<div class="person"><span class="num">10</span><span>Deerajkumar M</span></div>
-<div class="person"><span class="num">11</span><span>Geethika Chappidi</span></div>
-<div class="person"><span class="num">12</span><span>HEMANTH Kumar</span></div>
-<div class="person"><span class="num">13</span><span>Hitarth Vaghela</span></div>
-<div class="person"><span class="num">14</span><span>Jahnavi Logani</span></div>
-<div class="person"><span class="num">15</span><span>Nithish Shetty</span></div>
-<div class="person"><span class="num">16</span><span>Om Timbadiya</span></div>
-<div class="person"><span class="num">17</span><span>Poojitha Rachamadugu</span></div>
-<div class="person"><span class="num">18</span><span>Raaga Chakravarthy</span></div>
-<div class="person"><span class="num">19</span><span>Rajiv Hegde</span></div>
-<div class="person"><span class="num">20</span><span>Rishi Nikhilesh Damerla</span></div>
-<div class="person"><span class="num">21</span><span>Rithvik Banka</span></div>
-<div class="person"><span class="num">22</span><span>Arjun Rupavatia</span></div>
-<div class="person"><span class="num">23</span><span>Sahana B C</span></div>
-<div class="person"><span class="num">24</span><span>Saurabh Dwivedi</span></div>
-<div class="person"><span class="num">25</span><span>Shashidhar B Badiger</span></div>
-<div class="person"><span class="num">26</span><span>Smit Satani</span></div>
-<div class="person"><span class="num">27</span><span>Sriharish Varma</span></div>
-<div class="person"><span class="num">28</span><span>Thejeswara Rachamallu</span></div>
-<div class="person"><span class="num">29</span><span>Venkatesh A</span></div>
-<div class="person"><span class="num">30</span><span>Yug Gandhi</span></div>
-      </div>
+    <div class="confetti-layer" aria-hidden="true">
+      <span class="confetti c-blue" style="left:0%;--delay:-0.00s;--duration:5.20s;--size:7px;--rotate:20deg"></span>
+<span class="confetti c-lime" style="left:37%;--delay:-0.61s;--duration:5.57s;--size:8px;--rotate:37deg"></span>
+<span class="confetti c-cyan" style="left:74%;--delay:-1.22s;--duration:5.94s;--size:9px;--rotate:54deg"></span>
+<span class="confetti c-yellow" style="left:11%;--delay:-1.83s;--duration:6.31s;--size:10px;--rotate:71deg"></span>
+<span class="confetti c-coral" style="left:48%;--delay:-2.44s;--duration:6.68s;--size:11px;--rotate:88deg"></span>
+<span class="confetti c-lavender" style="left:85%;--delay:-3.05s;--duration:7.05s;--size:7px;--rotate:105deg"></span>
+<span class="confetti c-blue" style="left:22%;--delay:-3.66s;--duration:7.42s;--size:8px;--rotate:22deg"></span>
+<span class="confetti c-lime" style="left:59%;--delay:-4.27s;--duration:7.79s;--size:9px;--rotate:39deg"></span>
+<span class="confetti c-cyan" style="left:96%;--delay:-4.88s;--duration:8.16s;--size:10px;--rotate:56deg"></span>
+<span class="confetti c-yellow" style="left:33%;--delay:-5.49s;--duration:8.53s;--size:11px;--rotate:73deg"></span>
+<span class="confetti c-coral" style="left:70%;--delay:-6.10s;--duration:8.90s;--size:7px;--rotate:90deg"></span>
+<span class="confetti c-lavender" style="left:7%;--delay:-6.71s;--duration:5.47s;--size:8px;--rotate:107deg"></span>
+<span class="confetti c-blue" style="left:44%;--delay:-7.32s;--duration:5.84s;--size:9px;--rotate:24deg"></span>
+<span class="confetti c-lime" style="left:81%;--delay:-7.93s;--duration:6.21s;--size:10px;--rotate:41deg"></span>
+<span class="confetti c-cyan" style="left:18%;--delay:-0.54s;--duration:6.58s;--size:11px;--rotate:58deg"></span>
+<span class="confetti c-yellow" style="left:55%;--delay:-1.15s;--duration:6.95s;--size:7px;--rotate:75deg"></span>
+<span class="confetti c-coral" style="left:92%;--delay:-1.76s;--duration:7.32s;--size:8px;--rotate:92deg"></span>
+<span class="confetti c-lavender" style="left:29%;--delay:-2.37s;--duration:7.69s;--size:9px;--rotate:109deg"></span>
+<span class="confetti c-blue" style="left:66%;--delay:-2.98s;--duration:8.06s;--size:10px;--rotate:26deg"></span>
+<span class="confetti c-lime" style="left:3%;--delay:-3.59s;--duration:8.43s;--size:11px;--rotate:43deg"></span>
+<span class="confetti c-cyan" style="left:40%;--delay:-4.20s;--duration:8.80s;--size:7px;--rotate:60deg"></span>
+<span class="confetti c-yellow" style="left:77%;--delay:-4.81s;--duration:5.37s;--size:8px;--rotate:77deg"></span>
+<span class="confetti c-coral" style="left:14%;--delay:-5.42s;--duration:5.74s;--size:9px;--rotate:94deg"></span>
+<span class="confetti c-lavender" style="left:51%;--delay:-6.03s;--duration:6.11s;--size:10px;--rotate:111deg"></span>
+<span class="confetti c-blue" style="left:88%;--delay:-6.64s;--duration:6.48s;--size:11px;--rotate:28deg"></span>
+<span class="confetti c-lime" style="left:25%;--delay:-7.25s;--duration:6.85s;--size:7px;--rotate:45deg"></span>
+<span class="confetti c-cyan" style="left:62%;--delay:-7.86s;--duration:7.22s;--size:8px;--rotate:62deg"></span>
+<span class="confetti c-yellow" style="left:99%;--delay:-0.47s;--duration:7.59s;--size:9px;--rotate:79deg"></span>
+<span class="confetti c-coral" style="left:36%;--delay:-1.08s;--duration:7.96s;--size:10px;--rotate:96deg"></span>
+<span class="confetti c-lavender" style="left:73%;--delay:-1.69s;--duration:8.33s;--size:11px;--rotate:113deg"></span>
+<span class="confetti c-blue" style="left:10%;--delay:-2.30s;--duration:8.70s;--size:7px;--rotate:30deg"></span>
+<span class="confetti c-lime" style="left:47%;--delay:-2.91s;--duration:5.27s;--size:8px;--rotate:47deg"></span>
+<span class="confetti c-cyan" style="left:84%;--delay:-3.52s;--duration:5.64s;--size:9px;--rotate:64deg"></span>
+<span class="confetti c-yellow" style="left:21%;--delay:-4.13s;--duration:6.01s;--size:10px;--rotate:81deg"></span>
+<span class="confetti c-coral" style="left:58%;--delay:-4.74s;--duration:6.38s;--size:11px;--rotate:98deg"></span>
+<span class="confetti c-lavender" style="left:95%;--delay:-5.35s;--duration:6.75s;--size:7px;--rotate:115deg"></span>
+<span class="confetti c-blue" style="left:32%;--delay:-5.96s;--duration:7.12s;--size:8px;--rotate:32deg"></span>
+<span class="confetti c-lime" style="left:69%;--delay:-6.57s;--duration:7.49s;--size:9px;--rotate:49deg"></span>
+<span class="confetti c-cyan" style="left:6%;--delay:-7.18s;--duration:7.86s;--size:10px;--rotate:66deg"></span>
+<span class="confetti c-yellow" style="left:43%;--delay:-7.79s;--duration:8.23s;--size:11px;--rotate:83deg"></span>
+<span class="confetti c-coral" style="left:80%;--delay:-0.40s;--duration:8.60s;--size:7px;--rotate:100deg"></span>
+<span class="confetti c-lavender" style="left:17%;--delay:-1.01s;--duration:8.97s;--size:8px;--rotate:117deg"></span>
     </div>
-  </div>
 
-  <div class="footer">
-    <span class="dot"></span>
-    <span>Thank you for making Wellness Carnival 2026 so memorable.</span>
-  </div>
-</section>
+    <div class="hero-inner">
+
+      <div class="brand-row">
+        <img
+          class="brand-logo motorola"
+          src="https://www.image2url.com/r2/default/files/1790249513625-2eaa145e-a14c-4982-b303-b125faeaecdf.png"
+          alt="Motorola Solutions"
+        >
+
+        <div class="brand-divider" aria-hidden="true"></div>
+
+        <img
+          class="brand-logo ypg"
+          src="https://www.image2url.com/r2/default/files/1789826520122-fba4a533-46aa-45a1-b6a8-2a070b2b7a63.png"
+          alt="YPG India Chapter"
+        >
+      </div>
+
+      <h1 class="thank">Thank You!</h1>
+
+      <div class="event">MSI India Wellness Carnival 2026</div>
+
+      <p class="copy">
+        What a couple of days it was. Thank you for showing up, getting involved,
+        taking a little time for yourself, and making the Wellness Carnival feel
+        so special. Your energy and participation made these two days what they were.
+      </p>
+
+      <div class="chip">
+        23–24 September 2026 · Thank you for being part of it.
+      </div>
+
+    </div>
+  </section>
+
+  <section class="volunteers">
+
+    <div class="kicker">With gratitude</div>
+
+    <div class="vtitle">
+      A huge thank you to our volunteers
+    </div>
+
+    <div class="vcopy">
+      To everyone who stepped in, helped things move, solved little things on the go,
+      and kept the energy going — thank you. You made this happen, and you made it special.
+    </div>
+
+    <div class="ticker" aria-label="Volunteer names">
+
+      <div class="track">
+
+        <div class="group">
+          <div class="person"><span>Shanthosh Nuka</span></div><div class="person"><span>Geethanjali S Kumar</span><div class="person"><span>Charan Kumar</span></div><div class="person"><span>Balaji R</span></div><div class="person"><span>Balasubramanya Chinnappa</span></div><div class="person"><span>Balu Mahendranath Saki</span></div><div class="person"><span>Banti Kiritbhai Patel</span></div><div class="person"><span>Bhavan Teja Reddy Gade</span></div><div class="person"><span>Chaitanya Kowsik</span></div><div class="person"><span>Charan Kumar Reddy Kannappareddy</span></div><div class="person"><span>Deerajkumar M</span></div><div class="person"><span>Geethika Chappidi</span></div><div class="person"><span>HEMANTH Kumar</span></div><div class="person"><span>Hitarth Vaghela</span></div><div class="person"><span>Jahnavi Logani</span></div><div class="person"><span>Nithish Shetty</span></div><div class="person"><span>Om Timbadiya</span></div><div class="person"><span>Poojitha Rachamadugu</span></div><div class="person"><span>Raaga Chakravarthy</span></div><div class="person"><span>Rajiv Hegde</span></div><div class="person"><span>Rishi Nikhilesh Damerla</span></div><div class="person"><span>Rithvik Banka</span></div><div class="person"><span>Arjun Rupavatia</span></div><div class="person"><span>Sahana B C</span></div><div class="person"><span>Saurabh Dwivedi</span></div><div class="person"><span>Shashidhar B Badiger</span></div><div class="person"><span>Smit Satani</span></div><div class="person"><span>Sriharish Varma</span></div><div class="person"><span>Thejeswara Rachamallu</span></div><div class="person"><span>Venkatesh A</span></div><div class="person"><span>Yug Gandhi</span></div>
+        </div>
+
+        <div class="group" aria-hidden="true">
+          <div class="person" aria-hidden="true"><span>Shanthosh Nuka</span></div><div class="person" aria-hidden="true"><span>Geethanjali S Kumar</span></div><div class="person" aria-hidden="true"><span>Balaji R</span></div><div class="person" aria-hidden="true"><span>Balasubramanya Chinnappa</span></div><div class="person" aria-hidden="true"><span>Balu Mahendranath Saki</span></div><div class="person" aria-hidden="true"><span>Banti Kiritbhai Patel</span></div><div class="person" aria-hidden="true"><span>Bhavan Teja Reddy Gade</span></div><div class="person" aria-hidden="true"><span>Chaitanya Kowsik</span></div><div class="person" aria-hidden="true"><span>Charan Kumar Reddy Kannappareddy</span></div><div class="person" aria-hidden="true"><span>Deerajkumar M</span></div><div class="person" aria-hidden="true"><span>Geethika Chappidi</span></div><div class="person" aria-hidden="true"><span>HEMANTH Kumar</span></div><div class="person" aria-hidden="true"><span>Hitarth Vaghela</span></div><div class="person" aria-hidden="true"><span>Jahnavi Logani</span></div><div class="person" aria-hidden="true"><span>Nithish Shetty</span></div><div class="person" aria-hidden="true"><span>Om Timbadiya</span></div><div class="person" aria-hidden="true"><span>Poojitha Rachamadugu</span></div><div class="person" aria-hidden="true"><span>Raaga Chakravarthy</span></div><div class="person" aria-hidden="true"><span>Rajiv Hegde</span></div><div class="person" aria-hidden="true"><span>Rishi Nikhilesh Damerla</span></div><div class="person" aria-hidden="true"><span>Rithvik Banka</span></div><div class="person" aria-hidden="true"><span>Arjun Rupavatia</span></div><div class="person" aria-hidden="true"><span>Sahana B C</span></div><div class="person" aria-hidden="true"><span>Saurabh Dwivedi</span></div><div class="person" aria-hidden="true"><span>Shashidhar B Badiger</span></div><div class="person" aria-hidden="true"><span>Smit Satani</span></div><div class="person" aria-hidden="true"><span>Sriharish Varma</span></div><div class="person" aria-hidden="true"><span>Thejeswara Rachamallu</span></div><div class="person" aria-hidden="true"><span>Venkatesh A</span></div><div class="person" aria-hidden="true"><span>Yug Gandhi</span></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <span class="dot"></span>
+      <span>Thank you for making the Wellness Carnival 2026 memorable.</span>
+    </div>
+
+  </section>
+
 </main>
 </body>
 </html>
