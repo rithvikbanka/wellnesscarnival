@@ -162,7 +162,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 56
+      "waitingCount": 55
     },
     {
       "serviceId": "SVC_BMD",
@@ -478,7 +478,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 39
+      "waitingCount": 38
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:50:36.452Z"
+  "updatedAt": "2026-09-24T05:51:37.280Z"
 }
