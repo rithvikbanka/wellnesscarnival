@@ -241,7 +241,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 37
+      "waitingCount": 36
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -454,31 +454,31 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Bhanulakshmi A.",
+          "displayName": "Praveen K.",
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
         },
         {
-          "displayName": "Praveen K.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "ACTIVE"
-        },
-        {
           "displayName": "Mddilshad A.",
           "startTime": "11:15",
           "endTime": "11:30",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Karnakota K.",
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Vinitkumar P.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 38
+      "waitingCount": 37
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:52:40.915Z"
+  "updatedAt": "2026-09-24T05:53:35.837Z"
 }
