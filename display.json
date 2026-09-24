@@ -393,13 +393,13 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Deepaksudhan T.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
+          "displayName": "Tejaswinisirisha M.",
+          "startTime": "13:30",
+          "endTime": "13:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 13
+      "waitingCount": 11
     },
     {
       "serviceId": "SVC_EYE",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:56:37.093Z"
+  "updatedAt": "2026-09-24T07:58:37.188Z"
 }
