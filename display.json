@@ -448,12 +448,6 @@
       ],
       "nextPeople": [
         {
-          "displayName": "Apoorv A.",
-          "startTime": "10:45",
-          "endTime": "11:00",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Soumen J.",
           "startTime": "11:00",
           "endTime": "11:15",
@@ -467,6 +461,12 @@
         },
         {
           "displayName": "Prisha H.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Apoorv",
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "ACTIVE"
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:26:38.533Z"
+  "updatedAt": "2026-09-24T05:27:38.023Z"
 }
