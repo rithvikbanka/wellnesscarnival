@@ -503,14 +503,14 @@
       ],
       "nextPeople": [
         {
-          "displayName": "Samreen K.",
-          "startTime": "11:30",
-          "endTime": "12:00",
-          "status": "CALLED"
+          "displayName": "Hemanth K.",
+          "startTime": "13:00",
+          "endTime": "13:30",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 7
+      "waitingCount": 4
     }
   ],
-  "updatedAt": "2026-09-24T07:18:37.568Z"
+  "updatedAt": "2026-09-24T07:19:46.259Z"
 }
