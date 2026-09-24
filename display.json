@@ -68,19 +68,19 @@
           "displayName": "Geethika C.",
           "startTime": "12:45",
           "endTime": "13:00",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Swathi M.",
           "startTime": "12:45",
           "endTime": "13:00",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Neeraj K.",
           "startTime": "13:30",
           "endTime": "13:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "waitingCount": 18
@@ -488,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T09:12:36.118Z"
+  "updatedAt": "2026-09-24T09:13:37.084Z"
 }
