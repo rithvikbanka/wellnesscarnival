@@ -302,41 +302,15 @@
         "area": "Dental Screening Room",
         "floor": ""
       },
-      "currentSlotStartTime": "11:00",
-      "currentSlotEndTime": "11:45",
+      "currentSlotStartTime": "11:15",
+      "currentSlotEndTime": "13:45",
       "nowServing": [
-        {
-          "displayName": "Geethika C.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Sonal P.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Neeraj K.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
         {
           "displayName": "Apoorv A.",
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
         },
-        {
-          "displayName": "Poojitha R.",
-          "startTime": "11:30",
-          "endTime": "11:45",
-          "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
         {
           "displayName": "Shivakumar N.",
           "startTime": "11:30",
@@ -360,15 +334,41 @@
           "startTime": "13:30",
           "endTime": "13:45",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Jayesh T.",
           "startTime": "13:30",
           "endTime": "13:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Chandran M.",
+          "startTime": "13:45",
+          "endTime": "14:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Ganya J.",
+          "startTime": "13:45",
+          "endTime": "14:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Geethanjali S.",
+          "startTime": "14:00",
+          "endTime": "14:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sachin V.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 10
+      "waitingCount": 6
     },
     {
       "serviceId": "SVC_EYE",
@@ -481,5 +481,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:22:39.928Z"
+  "updatedAt": "2026-09-24T08:23:35.423Z"
 }
