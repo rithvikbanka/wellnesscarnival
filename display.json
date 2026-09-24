@@ -17,21 +17,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "10:00",
+      "currentSlotStartTime": "10:15",
       "currentSlotEndTime": "10:45",
       "nowServing": [
-        {
-          "displayName": "Ankitrajgupta G.",
-          "startTime": "10:00",
-          "endTime": "10:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Sanjiv A.",
-          "startTime": "10:15",
-          "endTime": "10:30",
-          "status": "CALLED"
-        },
         {
           "displayName": "Saiganesh R.",
           "startTime": "10:15",
@@ -49,9 +37,7 @@
           "startTime": "10:30",
           "endTime": "10:45",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Thejeswara R.",
           "startTime": "10:30",
@@ -63,7 +49,9 @@
           "startTime": "10:30",
           "endTime": "10:45",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Shivakumar N.",
           "startTime": "10:30",
@@ -81,9 +69,21 @@
           "startTime": "10:45",
           "endTime": "11:00",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Ravikanth N.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Apoorva A.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
         }
       ],
-      "waitingCount": 52
+      "waitingCount": 50
     },
     {
       "serviceId": "SVC_BCA",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:30:38.872Z"
+  "updatedAt": "2026-09-24T07:32:40.951Z"
 }
