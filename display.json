@@ -363,15 +363,9 @@
         "area": "Eye Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "12:45",
+      "currentSlotStartTime": "13:45",
       "currentSlotEndTime": "14:30",
       "nowServing": [
-        {
-          "displayName": "Sowmya R.",
-          "startTime": "12:45",
-          "endTime": "13:00",
-          "status": "CALLED"
-        },
         {
           "displayName": "Amarantha K.",
           "startTime": "13:45",
@@ -395,15 +389,15 @@
           "startTime": "14:15",
           "endTime": "14:30",
           "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Poojitha R.",
           "startTime": "14:15",
           "endTime": "14:30",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Bhanuprakashs S.",
           "startTime": "14:15",
@@ -427,9 +421,15 @@
           "startTime": "14:30",
           "endTime": "14:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Vidhi S.",
+          "startTime": "14:30",
+          "endTime": "14:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 10
+      "waitingCount": 9
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -463,5 +463,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:24:35.889Z"
+  "updatedAt": "2026-09-24T08:25:35.463Z"
 }
