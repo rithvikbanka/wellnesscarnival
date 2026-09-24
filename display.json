@@ -229,19 +229,19 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Murali M.",
-          "startTime": "11:30",
-          "endTime": "11:45",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Jurendraveeraiahch V.",
           "startTime": "11:45",
           "endTime": "12:00",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Apoorva A.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "CALLED"
         }
       ],
-      "waitingCount": 30
+      "waitingCount": 29
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -478,7 +478,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 34
+      "waitingCount": 33
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T06:37:38.100Z"
+  "updatedAt": "2026-09-24T06:39:37.176Z"
 }
