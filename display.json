@@ -17,41 +17,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "10:15",
-      "currentSlotEndTime": "10:45",
+      "currentSlotStartTime": "10:45",
+      "currentSlotEndTime": "11:15",
       "nowServing": [
-        {
-          "displayName": "Deepaksudhan T.",
-          "startTime": "10:15",
-          "endTime": "10:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Yash P.",
-          "startTime": "10:30",
-          "endTime": "10:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Thejeswara R.",
-          "startTime": "10:30",
-          "endTime": "10:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Jurendraveeraiahch V.",
-          "startTime": "10:30",
-          "endTime": "10:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Shivakumar N.",
-          "startTime": "10:30",
-          "endTime": "10:45",
-          "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
         {
           "displayName": "Chandran M.",
           "startTime": "10:45",
@@ -83,7 +51,39 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 49
+      "nextPeople": [
+        {
+          "displayName": "Ashok A.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Prabhukalyan K.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Vinaydatta B.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Vani H.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Sowmya R.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "CALLED"
+        }
+      ],
+      "waitingCount": 44
     },
     {
       "serviceId": "SVC_BCA",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:58:37.188Z"
+  "updatedAt": "2026-09-24T07:59:37.406Z"
 }
