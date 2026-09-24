@@ -412,27 +412,9 @@
         "area": "Eye Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "12:00",
-      "currentSlotEndTime": "14:00",
+      "currentSlotStartTime": "12:45",
+      "currentSlotEndTime": "14:30",
       "nowServing": [
-        {
-          "displayName": "Soumya R.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Sairam P.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Husenabegum B.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
         {
           "displayName": "Sowmya R.",
           "startTime": "12:45",
@@ -444,9 +426,7 @@
           "startTime": "13:45",
           "endTime": "14:00",
           "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Narasimhareddy K.",
           "startTime": "14:00",
@@ -464,7 +444,9 @@
           "startTime": "14:15",
           "endTime": "14:30",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Poojitha R.",
           "startTime": "14:15",
@@ -476,9 +458,27 @@
           "startTime": "14:15",
           "endTime": "14:30",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Bhadra M.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Shivakumar N.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sendhuran M.",
+          "startTime": "14:30",
+          "endTime": "14:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 13
+      "waitingCount": 10
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:49:43.572Z"
+  "updatedAt": "2026-09-24T07:51:36.832Z"
 }
