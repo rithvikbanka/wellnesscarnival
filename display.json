@@ -258,25 +258,7 @@
       "currentSlotEndTime": "11:30",
       "nowServing": [
         {
-          "displayName": "Venkatesh A.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Vinitkumar P.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Sairam P.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Neha S.",
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "CALLED"
@@ -286,9 +268,7 @@
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Kirankumar B.",
           "startTime": "11:15",
@@ -306,7 +286,9 @@
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Nischitha M.",
           "startTime": "11:30",
@@ -318,9 +300,27 @@
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Thejeswara R.",
+          "startTime": "11:45",
+          "endTime": "12:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Narasimhareddy K.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Charankumarreddy K.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "CALLED"
         }
       ],
-      "waitingCount": 42
+      "waitingCount": 39
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:17:05.554Z"
+  "updatedAt": "2026-09-24T08:17:36.386Z"
 }
