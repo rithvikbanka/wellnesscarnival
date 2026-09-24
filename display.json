@@ -162,7 +162,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 44
+      "waitingCount": 43
     },
     {
       "serviceId": "SVC_BMD",
@@ -509,8 +509,8 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 4
+      "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:20:36.052Z"
+  "updatedAt": "2026-09-24T07:22:39.522Z"
 }
