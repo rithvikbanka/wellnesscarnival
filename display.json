@@ -293,7 +293,7 @@
           "displayName": "Abhinavm R.",
           "startTime": "14:15",
           "endTime": "14:30",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Sapnaa G.",
@@ -488,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T09:21:40.150Z"
+  "updatedAt": "2026-09-24T09:23:45.830Z"
 }
