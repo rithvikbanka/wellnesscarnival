@@ -83,7 +83,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 58
+      "waitingCount": 59
     },
     {
       "serviceId": "SVC_BCA",
@@ -162,7 +162,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 59
+      "waitingCount": 60
     },
     {
       "serviceId": "SVC_BMD",
@@ -235,13 +235,13 @@
           "status": "ACTIVE"
         },
         {
-          "displayName": "Ramanagouda G.",
+          "displayName": "Shivakumar N.",
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 44
+      "waitingCount": 45
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -255,10 +255,16 @@
         "floor": ""
       },
       "currentSlotStartTime": "10:00",
-      "currentSlotEndTime": "11:00",
+      "currentSlotEndTime": "10:45",
       "nowServing": [
         {
           "displayName": "Rupali C.",
+          "startTime": "10:00",
+          "endTime": "10:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Shivakumar N.",
           "startTime": "10:00",
           "endTime": "10:15",
           "status": "ACTIVE"
@@ -280,15 +286,15 @@
           "startTime": "10:30",
           "endTime": "10:45",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Husenabegum B.",
           "startTime": "10:45",
           "endTime": "11:00",
           "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Vikas G.",
           "startTime": "11:00",
@@ -312,15 +318,9 @@
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "ACTIVE"
-        },
-        {
-          "displayName": "Neha S.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 47
+      "waitingCount": 48
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -478,7 +478,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 49
+      "waitingCount": 50
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T04:30:45.909Z"
+  "updatedAt": "2026-09-24T04:32:41.700Z"
 }
