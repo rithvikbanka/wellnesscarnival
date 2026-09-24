@@ -223,12 +223,6 @@
           "status": "ACTIVE"
         },
         {
-          "displayName": "Alvin J.",
-          "startTime": "14:30",
-          "endTime": "14:45",
-          "status": "ACTIVE"
-        },
-        {
           "displayName": "Ganya J.",
           "startTime": "14:45",
           "endTime": "15:00",
@@ -241,7 +235,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 5
+      "waitingCount": 4
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -494,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T08:30:37.077Z"
+  "updatedAt": "2026-09-24T08:44:36.643Z"
 }
