@@ -474,7 +474,7 @@
           "displayName": "Hemanth K.",
           "startTime": "13:00",
           "endTime": "13:30",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "nextPeople": [
@@ -488,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T08:44:36.643Z"
+  "updatedAt": "2026-09-24T08:50:36.140Z"
 }
