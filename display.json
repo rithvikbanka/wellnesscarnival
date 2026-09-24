@@ -498,7 +498,7 @@
           "displayName": "Sachin V.",
           "startTime": "10:00",
           "endTime": "10:30",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "nextPeople": [
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T05:23:37.926Z"
+  "updatedAt": "2026-09-24T05:25:39.845Z"
 }
