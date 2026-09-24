@@ -255,13 +255,13 @@
           "displayName": "Suhas K.",
           "startTime": "14:00",
           "endTime": "14:15",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Sarvesh B.",
           "startTime": "14:00",
           "endTime": "14:15",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Deepaksudhan T.",
@@ -488,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T09:13:37.084Z"
+  "updatedAt": "2026-09-24T09:18:39.337Z"
 }
