@@ -491,17 +491,9 @@
         "area": "Counselling Room",
         "floor": ""
       },
-      "currentSlotStartTime": "10:00",
-      "currentSlotEndTime": "10:30",
+      "currentSlotStartTime": "10:30",
+      "currentSlotEndTime": "11:00",
       "nowServing": [
-        {
-          "displayName": "Sachin V.",
-          "startTime": "10:00",
-          "endTime": "10:30",
-          "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
         {
           "displayName": "Raju B.",
           "startTime": "10:30",
@@ -509,8 +501,16 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 9
+      "nextPeople": [
+        {
+          "displayName": "Vvijay K.",
+          "startTime": "11:00",
+          "endTime": "11:30",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:25:57.797Z"
+  "updatedAt": "2026-09-24T05:26:38.533Z"
 }
