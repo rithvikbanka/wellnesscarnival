@@ -478,7 +478,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 22
+      "waitingCount": 21
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:38:35.551Z"
+  "updatedAt": "2026-09-24T07:39:37.098Z"
 }
