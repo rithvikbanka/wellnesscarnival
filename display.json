@@ -17,10 +17,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "10:15",
+      "nowServing": [
         {
           "displayName": "Nischitha M.",
           "startTime": "10:00",
@@ -52,7 +51,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 63
+      "nextPeople": [
+        {
+          "displayName": "Sanjiv A.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Saiganesh R.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Yash P.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Thejeswara R.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Jurendraveeraiahch V.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 58
     },
     {
       "serviceId": "SVC_BCA",
@@ -65,10 +96,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "10:15",
+      "nowServing": [
         {
           "displayName": "Venkatesh A.",
           "startTime": "10:00",
@@ -100,7 +130,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 64
+      "nextPeople": [
+        {
+          "displayName": "Neha S.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Nischitha M.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Vidhi S.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Tulasi K.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Ankitrajgupta G.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 59
     },
     {
       "serviceId": "SVC_BMD",
@@ -113,10 +175,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "11:00",
+      "nowServing": [
         {
           "displayName": "Gourish R.",
           "startTime": "10:00",
@@ -148,7 +209,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 49
+      "nextPeople": [
+        {
+          "displayName": "Sanjiv A.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sachin V.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Yash P.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Ganeshuttam S.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Ramanagouda G.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 44
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -161,10 +254,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "11:00",
+      "nowServing": [
         {
           "displayName": "Rupali C.",
           "startTime": "10:00",
@@ -196,7 +288,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 52
+      "nextPeople": [
+        {
+          "displayName": "Vikas G.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Venkatesh A.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Vinitkumar P.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sairam P.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Neha S.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 47
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -209,42 +333,73 @@
         "area": "Dental Screening Room",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
+      "currentSlotStartTime": "11:45",
+      "currentSlotEndTime": "12:15",
+      "nowServing": [
+        {
+          "displayName": "Prisha H.",
+          "startTime": "11:45",
+          "endTime": "12:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Yatri D.",
+          "startTime": "11:45",
+          "endTime": "12:00",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Praveen K.",
+          "startTime": "11:45",
+          "endTime": "12:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Bhadra M.",
+          "startTime": "11:45",
+          "endTime": "12:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Vinitkumar P.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "CALLED"
+        }
+      ],
       "nextPeople": [
         {
-          "displayName": "Rupali C.",
-          "startTime": "10:30",
-          "endTime": "10:45",
+          "displayName": "Nischitha M.",
+          "startTime": "12:00",
+          "endTime": "12:15",
           "status": "ACTIVE"
         },
         {
-          "displayName": "Kumara K.",
-          "startTime": "10:30",
-          "endTime": "10:45",
+          "displayName": "Yuvraj S.",
+          "startTime": "12:00",
+          "endTime": "12:15",
           "status": "ACTIVE"
         },
         {
-          "displayName": "Bhanulakshmi A.",
-          "startTime": "10:45",
-          "endTime": "11:00",
+          "displayName": "Tulasi K.",
+          "startTime": "12:15",
+          "endTime": "12:30",
           "status": "ACTIVE"
         },
         {
-          "displayName": "Harish K.",
-          "startTime": "10:45",
-          "endTime": "11:00",
+          "displayName": "Ankitrajgupta G.",
+          "startTime": "12:15",
+          "endTime": "12:30",
           "status": "ACTIVE"
         },
         {
-          "displayName": "Swathi M.",
-          "startTime": "10:45",
-          "endTime": "11:00",
+          "displayName": "Apoorva A.",
+          "startTime": "12:30",
+          "endTime": "12:45",
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 39
+      "waitingCount": 18
     },
     {
       "serviceId": "SVC_EYE",
@@ -257,10 +412,9 @@
         "area": "Eye Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "10:45",
+      "nowServing": [
         {
           "displayName": "Prakash S.",
           "startTime": "10:00",
@@ -292,7 +446,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 54
+      "nextPeople": [
+        {
+          "displayName": "Prabhukalyan K.",
+          "startTime": "10:30",
+          "endTime": "10:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Soumen J.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Suhas K.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Rupali C.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Prisha H.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 49
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -305,10 +491,9 @@
         "area": "Counselling Room",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "10:00",
+      "currentSlotEndTime": "10:30",
+      "nowServing": [
         {
           "displayName": "Sachin V.",
           "startTime": "10:00",
@@ -316,8 +501,16 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 10
+      "nextPeople": [
+        {
+          "displayName": "Raju B.",
+          "startTime": "10:30",
+          "endTime": "11:00",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T04:01:27.361Z"
+  "updatedAt": "2026-09-24T04:30:45.909Z"
 }
