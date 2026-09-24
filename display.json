@@ -42,13 +42,13 @@
           "displayName": "Ashish V.",
           "startTime": "12:30",
           "endTime": "12:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Sonal P.",
           "startTime": "12:30",
           "endTime": "12:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "nextPeople": [
@@ -56,13 +56,13 @@
           "displayName": "Yuvraj S.",
           "startTime": "12:30",
           "endTime": "12:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Sumaiya K.",
           "startTime": "12:30",
           "endTime": "12:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Geethika C.",
@@ -488,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T09:11:35.384Z"
+  "updatedAt": "2026-09-24T09:12:36.118Z"
 }
