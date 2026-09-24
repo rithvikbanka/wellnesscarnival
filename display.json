@@ -299,7 +299,7 @@
           "displayName": "Vikas G.",
           "startTime": "11:00",
           "endTime": "11:15",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Venkatesh A.",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T05:11:38.260Z"
+  "updatedAt": "2026-09-24T05:14:31.794Z"
 }
