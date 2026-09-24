@@ -399,7 +399,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 32
+      "waitingCount": 31
     },
     {
       "serviceId": "SVC_EYE",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T05:20:36.597Z"
+  "updatedAt": "2026-09-24T05:21:42.668Z"
 }
