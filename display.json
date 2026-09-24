@@ -238,10 +238,10 @@
           "displayName": "Murali M.",
           "startTime": "11:30",
           "endTime": "11:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
-      "waitingCount": 33
+      "waitingCount": 34
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -320,7 +320,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 48
+      "waitingCount": 49
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -478,7 +478,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 37
+      "waitingCount": 38
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T06:01:41.687Z"
+  "updatedAt": "2026-09-24T06:02:38.280Z"
 }
