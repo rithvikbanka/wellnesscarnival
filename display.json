@@ -83,7 +83,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 55
+      "waitingCount": 54
     },
     {
       "serviceId": "SVC_BCA",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T05:00:40.359Z"
+  "updatedAt": "2026-09-24T05:01:37.983Z"
 }
