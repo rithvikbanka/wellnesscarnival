@@ -162,7 +162,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 54
+      "waitingCount": 53
     },
     {
       "serviceId": "SVC_BMD",
@@ -506,11 +506,11 @@
           "displayName": "Vvijay K.",
           "startTime": "11:00",
           "endTime": "11:30",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T06:03:36.716Z"
+  "updatedAt": "2026-09-24T06:05:18.641Z"
 }
