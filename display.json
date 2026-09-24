@@ -460,12 +460,6 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Yatri D.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Bhanulakshmi A.",
           "startTime": "11:15",
           "endTime": "11:30",
@@ -476,9 +470,15 @@
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Praveen K.",
+          "startTime": "11:15",
+          "endTime": "11:30",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 42
+      "waitingCount": 41
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:46:13.714Z"
+  "updatedAt": "2026-09-24T05:46:37.136Z"
 }
