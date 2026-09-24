@@ -145,7 +145,7 @@
         "floor": ""
       },
       "currentSlotStartTime": "11:15",
-      "currentSlotEndTime": "12:30",
+      "currentSlotEndTime": "13:45",
       "nowServing": [
         {
           "displayName": "Vandit K.",
@@ -154,45 +154,7 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Jurendraveeraiahch V.",
-          "startTime": "11:45",
-          "endTime": "12:00",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Apoorva A.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Vinaydatta B.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Vani H.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
-        {
-          "displayName": "Preranav G.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Ravi B.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Prabhukalyan K.",
           "startTime": "12:15",
           "endTime": "12:30",
           "status": "CALLED"
@@ -208,9 +170,47 @@
           "startTime": "13:30",
           "endTime": "13:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sarvesh B.",
+          "startTime": "13:30",
+          "endTime": "13:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 12
+      "nextPeople": [
+        {
+          "displayName": "Syednazir K.",
+          "startTime": "13:45",
+          "endTime": "14:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Rakesh P.",
+          "startTime": "14:00",
+          "endTime": "14:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Geethika C.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Alvin J.",
+          "startTime": "14:30",
+          "endTime": "14:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Ganya J.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 6
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -481,5 +481,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:13:36.605Z"
+  "updatedAt": "2026-09-24T08:14:36.690Z"
 }
