@@ -203,19 +203,13 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Ganeshuttam S.",
+          "displayName": "Shivakumar N.",
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "CALLED"
         }
       ],
       "nextPeople": [
-        {
-          "displayName": "Shivakumar N.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
         {
           "displayName": "Chandran M.",
           "startTime": "11:15",
@@ -239,9 +233,15 @@
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Ashish V.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 39
+      "waitingCount": 38
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:43:07.472Z"
+  "updatedAt": "2026-09-24T05:43:36.222Z"
 }
