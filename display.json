@@ -65,6 +65,12 @@
           "status": "ACTIVE"
         },
         {
+          "displayName": "Deepaksudhan T.",
+          "startTime": "10:15",
+          "endTime": "10:30",
+          "status": "ACTIVE"
+        },
+        {
           "displayName": "Yash P.",
           "startTime": "10:30",
           "endTime": "10:45",
@@ -75,15 +81,9 @@
           "startTime": "10:30",
           "endTime": "10:45",
           "status": "ACTIVE"
-        },
-        {
-          "displayName": "Jurendraveeraiahch V.",
-          "startTime": "10:30",
-          "endTime": "10:45",
-          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 59
+      "waitingCount": 60
     },
     {
       "serviceId": "SVC_BCA",
@@ -162,7 +162,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 60
+      "waitingCount": 61
     },
     {
       "serviceId": "SVC_BMD",
@@ -241,7 +241,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 45
+      "waitingCount": 46
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -320,7 +320,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 48
+      "waitingCount": 49
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -375,6 +375,12 @@
           "status": "ACTIVE"
         },
         {
+          "displayName": "Deepaksudhan T.",
+          "startTime": "12:00",
+          "endTime": "12:15",
+          "status": "ACTIVE"
+        },
+        {
           "displayName": "Yuvraj S.",
           "startTime": "12:00",
           "endTime": "12:15",
@@ -391,15 +397,9 @@
           "startTime": "12:15",
           "endTime": "12:30",
           "status": "ACTIVE"
-        },
-        {
-          "displayName": "Apoorva A.",
-          "startTime": "12:30",
-          "endTime": "12:45",
-          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 18
+      "waitingCount": 19
     },
     {
       "serviceId": "SVC_EYE",
@@ -478,7 +478,7 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 50
+      "waitingCount": 51
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T04:32:41.700Z"
+  "updatedAt": "2026-09-24T04:39:44.636Z"
 }
