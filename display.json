@@ -255,7 +255,7 @@
         "floor": ""
       },
       "currentSlotStartTime": "12:00",
-      "currentSlotEndTime": "12:30",
+      "currentSlotEndTime": "14:15",
       "nowServing": [
         {
           "displayName": "Narasimhareddy K.",
@@ -282,45 +282,45 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Sowmya R.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
+          "displayName": "Suhas K.",
+          "startTime": "14:00",
+          "endTime": "14:15",
+          "status": "ACTIVE"
         }
       ],
       "nextPeople": [
         {
-          "displayName": "Samreen K.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
+          "displayName": "Sarvesh B.",
+          "startTime": "14:00",
+          "endTime": "14:15",
+          "status": "ACTIVE"
         },
         {
-          "displayName": "Srikanth G.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
+          "displayName": "Deepaksudhan T.",
+          "startTime": "14:00",
+          "endTime": "14:15",
+          "status": "ACTIVE"
         },
         {
-          "displayName": "Ravikanth N.",
-          "startTime": "12:15",
-          "endTime": "12:30",
-          "status": "CALLED"
+          "displayName": "Pavankarthik M.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
         },
         {
-          "displayName": "Sachin V.",
-          "startTime": "12:30",
-          "endTime": "12:45",
-          "status": "CALLED"
+          "displayName": "Gayathri J.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
         },
         {
-          "displayName": "Gautam Z.",
-          "startTime": "12:30",
-          "endTime": "12:45",
-          "status": "CALLED"
+          "displayName": "Dhanush U.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 21
+      "waitingCount": 14
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:20:36.735Z"
+  "updatedAt": "2026-09-24T08:21:34.968Z"
 }
