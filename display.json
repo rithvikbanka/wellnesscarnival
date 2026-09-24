@@ -145,40 +145,14 @@
         "floor": ""
       },
       "currentSlotStartTime": "11:15",
-      "currentSlotEndTime": "11:45",
+      "currentSlotEndTime": "12:30",
       "nowServing": [
-        {
-          "displayName": "Tulasi K.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
         {
           "displayName": "Vandit K.",
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
         },
-        {
-          "displayName": "Deepaksudhan T.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Ashish V.",
-          "startTime": "11:30",
-          "endTime": "11:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Sairam P.",
-          "startTime": "11:30",
-          "endTime": "11:45",
-          "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
         {
           "displayName": "Jurendraveeraiahch V.",
           "startTime": "11:45",
@@ -202,15 +176,41 @@
           "startTime": "12:15",
           "endTime": "12:30",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Preranav G.",
           "startTime": "12:15",
           "endTime": "12:30",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Ravi B.",
+          "startTime": "12:15",
+          "endTime": "12:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Prabhukalyan K.",
+          "startTime": "12:15",
+          "endTime": "12:30",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Jaikee G.",
+          "startTime": "12:45",
+          "endTime": "13:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Raaga C.",
+          "startTime": "13:30",
+          "endTime": "13:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 16
+      "waitingCount": 12
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -481,5 +481,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:12:40.624Z"
+  "updatedAt": "2026-09-24T08:13:36.605Z"
 }
