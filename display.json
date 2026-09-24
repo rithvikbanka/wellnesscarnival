@@ -17,73 +17,73 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "10:45",
-      "currentSlotEndTime": "11:15",
+      "currentSlotStartTime": "11:15",
+      "currentSlotEndTime": "11:45",
       "nowServing": [
         {
-          "displayName": "Chandran M.",
-          "startTime": "10:45",
-          "endTime": "11:00",
+          "displayName": "Kiran H.",
+          "startTime": "11:15",
+          "endTime": "11:30",
           "status": "CALLED"
         },
         {
-          "displayName": "Vandit K.",
-          "startTime": "10:45",
-          "endTime": "11:00",
+          "displayName": "Sachin V.",
+          "startTime": "11:30",
+          "endTime": "11:45",
           "status": "CALLED"
         },
         {
-          "displayName": "Ravikanth N.",
-          "startTime": "10:45",
-          "endTime": "11:00",
+          "displayName": "Siddiq T.",
+          "startTime": "11:30",
+          "endTime": "11:45",
           "status": "CALLED"
         },
         {
-          "displayName": "Apoorva A.",
-          "startTime": "11:00",
-          "endTime": "11:15",
+          "displayName": "Binod Y.",
+          "startTime": "11:30",
+          "endTime": "11:45",
           "status": "CALLED"
         },
         {
-          "displayName": "Balajiram R.",
-          "startTime": "11:00",
-          "endTime": "11:15",
+          "displayName": "Subhamkumar M.",
+          "startTime": "11:30",
+          "endTime": "11:45",
           "status": "CALLED"
         }
       ],
       "nextPeople": [
         {
-          "displayName": "Ashok A.",
-          "startTime": "11:00",
-          "endTime": "11:15",
+          "displayName": "Suhas K.",
+          "startTime": "11:30",
+          "endTime": "11:45",
           "status": "CALLED"
         },
         {
-          "displayName": "Prabhukalyan K.",
-          "startTime": "11:00",
-          "endTime": "11:15",
+          "displayName": "Preranav G.",
+          "startTime": "11:45",
+          "endTime": "12:00",
           "status": "CALLED"
         },
         {
-          "displayName": "Vinaydatta B.",
-          "startTime": "11:00",
-          "endTime": "11:15",
+          "displayName": "Bhanulakshmi A.",
+          "startTime": "11:45",
+          "endTime": "12:00",
           "status": "CALLED"
         },
         {
-          "displayName": "Vani H.",
-          "startTime": "11:15",
-          "endTime": "11:30",
+          "displayName": "Aryan C.",
+          "startTime": "11:45",
+          "endTime": "12:00",
           "status": "CALLED"
         },
         {
-          "displayName": "Sowmya R.",
-          "startTime": "11:15",
-          "endTime": "11:30",
+          "displayName": "Ganeshuttam S.",
+          "startTime": "12:00",
+          "endTime": "12:15",
           "status": "CALLED"
         }
       ],
-      "waitingCount": 44
+      "waitingCount": 32
     },
     {
       "serviceId": "SVC_BCA",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:59:37.406Z"
+  "updatedAt": "2026-09-24T08:01:50.969Z"
 }
