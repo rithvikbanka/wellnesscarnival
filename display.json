@@ -241,7 +241,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 31
+      "waitingCount": 30
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -320,7 +320,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 49
+      "waitingCount": 48
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -478,7 +478,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 37
+      "waitingCount": 36
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T06:12:42.816Z"
+  "updatedAt": "2026-09-24T06:13:35.638Z"
 }
