@@ -254,10 +254,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "14:00",
+      "currentSlotEndTime": "14:30",
+      "nowServing": [
         {
           "displayName": "Suhas K.",
           "startTime": "14:00",
@@ -289,7 +288,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 15
+      "nextPeople": [
+        {
+          "displayName": "Dhanush U.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Abhinavm R.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sapnaa G.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Chandran M.",
+          "startTime": "14:30",
+          "endTime": "14:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Santoshkumar D.",
+          "startTime": "14:30",
+          "endTime": "14:45",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 10
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -442,17 +473,9 @@
         "area": "Counselling Room",
         "floor": ""
       },
-      "currentSlotStartTime": "10:30",
-      "currentSlotEndTime": "11:00",
+      "currentSlotStartTime": "13:00",
+      "currentSlotEndTime": "13:30",
       "nowServing": [
-        {
-          "displayName": "Raju B.",
-          "startTime": "10:30",
-          "endTime": "11:00",
-          "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
         {
           "displayName": "Hemanth K.",
           "startTime": "13:00",
@@ -460,8 +483,16 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 3
+      "nextPeople": [
+        {
+          "displayName": "Gautam Z.",
+          "startTime": "13:30",
+          "endTime": "14:00",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T08:25:35.463Z"
+  "updatedAt": "2026-09-24T08:30:37.077Z"
 }
