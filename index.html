@@ -1,853 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#F5F7FA">
-  <title>YPG India Wellness Carnival 2026</title>
-  <style>
-    * { box-sizing: border-box; }
-
-    :root {
-      --bg: #f5f7fa;
-      --card: #ffffff;
-      --ink: #16233b;
-      --muted: #6f7d93;
-      --muted-2: #8d99ab;
-      --line: #e4eaf2;
-      --blue: #1267ff;
-      --blue-soft: #eef5ff;
-      --blue-line: #cfe0ff;
-      --green: #198754;
-      --green-soft: #e8f7ef;
-      --shadow: 0 18px 50px rgba(31, 50, 78, 0.08);
-    }
-
-    html,
-    body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      overflow: hidden;
-      background: var(--bg);
-      color: var(--ink);
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-    }
-
-    body {
-      min-height: 100vh;
-    }
-
-    .app {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .topbar {
-      height: 84px;
-      flex: 0 0 84px;
-      background: #fff;
-      border-bottom: 1px solid var(--line);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-      padding: 0 34px;
-    }
-
-    .brand {
-      min-width: 0;
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .brand-logo {
-      width: 210px;
-      max-width: 25vw;
-      height: 52px;
-      object-fit: contain;
-      object-position: left center;
-    }
-
-    .brand-divider {
-      width: 1px;
-      height: 34px;
-      background: var(--line);
-    }
-
-    .brand-copy {
-      min-width: 0;
-    }
-
-    .brand-title {
-      font-size: clamp(21px, 1.55vw, 28px);
-      font-weight: 800;
-      letter-spacing: -0.45px;
-      line-height: 1.05;
-      white-space: nowrap;
-    }
-
-    .brand-subtitle {
-      margin-top: 5px;
-      color: var(--muted);
-      font-size: 12px;
-      white-space: nowrap;
-    }
-
-    .live-area {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      flex-shrink: 0;
-    }
-
-    .live-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 13px;
-      border-radius: 999px;
-      background: var(--green-soft);
-      color: var(--green);
-      font-size: 12px;
-      font-weight: 800;
-      border: 1px solid #ccefdc;
-    }
-
-    .live-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: #20b566;
-    }
-
-    .clock {
-      text-align: right;
-    }
-
-    .clock-time {
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 1;
-      letter-spacing: -0.4px;
-    }
-
-    .clock-date {
-      margin-top: 5px;
-      color: var(--muted);
-      font-size: 11px;
-    }
-
-    .stage {
-      flex: 1;
-      min-height: 0;
-      position: relative;
-      padding: 26px 34px 28px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .stage-head {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 20px;
-      flex: 0 0 auto;
-      margin-bottom: 18px;
-    }
-
-    .eyebrow {
-      color: var(--blue);
-      font-size: 10px;
-      font-weight: 900;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
-
-    .screen-title {
-      margin: 4px 0 0;
-      font-size: clamp(30px, 3vw, 52px);
-      line-height: 1;
-      letter-spacing: -1px;
-      font-weight: 850;
-    }
-
-    .screen-date {
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 600;
-      text-align: right;
-      padding-bottom: 4px;
-      white-space: nowrap;
-    }
-
-    .slide-shell {
-      flex: 1;
-      min-height: 0;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      box-shadow: var(--shadow);
-      padding: 24px 26px 20px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    .slide-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 24px;
-      flex: 0 0 auto;
-    }
-
-    .service-copy {
-      min-width: 0;
-    }
-
-    .service-name {
-      font-size: clamp(24px, 2.1vw, 36px);
-      line-height: 1.1;
-      font-weight: 850;
-      letter-spacing: -0.8px;
-    }
-
-    .service-provider {
-      margin-top: 7px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    .service-meta {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .service-badge {
-      flex-shrink: 0;
-      padding: 9px 13px;
-      border-radius: 999px;
-      background: #f5f7fb;
-      border: 1px solid #e8edf5;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 800;
-    }
-
-    .slide-main {
-      flex: 1;
-      min-height: 0;
-      display: grid;
-      grid-template-columns: minmax(0, 1.8fr) minmax(250px, .8fr);
-      gap: 28px;
-      margin-top: 22px;
-    }
-
-    .current-panel,
-    .next-panel {
-      min-height: 0;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .panel-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 15px;
-      margin-bottom: 10px;
-    }
-
-    .panel-label {
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 900;
-      letter-spacing: .11em;
-      text-transform: uppercase;
-    }
-
-    .panel-time {
-      color: var(--muted-2);
-      font-size: 12px;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-
-    .current-grid {
-      flex: 1;
-      min-height: 0;
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      grid-template-rows: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .person-card {
-      min-height: 0;
-      padding: 18px 20px;
-      border-radius: 16px;
-      border: 1px solid var(--blue-line);
-      background: var(--blue-soft);
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
-    .person-index {
-      flex: 0 0 auto;
-      width: 36px;
-      height: 36px;
-      border-radius: 11px;
-      background: #fff;
-      border: 1px solid #d8e5ff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--blue);
-      font-size: 12px;
-      font-weight: 900;
-    }
-
-    .person-name {
-      font-size: clamp(19px, 1.55vw, 29px);
-      font-weight: 850;
-      line-height: 1.15;
-      letter-spacing: -0.3px;
-    }
-
-    .empty-card {
-      grid-column: 1 / -1;
-      border: 1px dashed #cfd7e4;
-      color: var(--muted);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 16px;
-      font-size: 16px;
-      font-weight: 700;
-      padding: 20px;
-      background: #fbfcfe;
-    }
-
-    .next-panel {
-      border-left: 1px solid var(--line);
-      padding-left: 24px;
-    }
-
-    .next-stack {
-      display: grid;
-      gap: 11px;
-      margin-top: 1px;
-    }
-
-    .next-card {
-      padding: 16px 17px;
-      border-radius: 15px;
-      background: #fbfcfe;
-      border: 1px solid #e8edf4;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-    }
-
-    .next-left {
-      min-width: 0;
-    }
-
-    .next-index {
-      color: var(--muted-2);
-      font-size: 10px;
-      font-weight: 900;
-      letter-spacing: .08em;
-    }
-
-    .next-name {
-      margin-top: 4px;
-      font-size: 18px;
-      font-weight: 800;
-      line-height: 1.2;
-    }
-
-    .next-time {
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-
-    .waiting-box {
-      margin-top: auto;
-      padding: 17px 18px;
-      border-radius: 16px;
-      background: #fafbfd;
-      border: 1px solid #e7ecf3;
-    }
-
-    .waiting-number {
-      font-size: clamp(30px, 3vw, 48px);
-      line-height: .95;
-      font-weight: 850;
-      letter-spacing: -1px;
-    }
-
-    .waiting-label {
-      margin-top: 5px;
-      color: var(--muted);
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      font-weight: 800;
-    }
-
-    .slide-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      flex: 0 0 auto;
-      margin-top: 17px;
-      padding-top: 14px;
-      border-top: 1px solid var(--line);
-    }
-
-    .progress-wrap {
-      min-width: 0;
-      flex: 1;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .progress-track {
-      height: 5px;
-      flex: 1;
-      max-width: 560px;
-      background: #e9edf4;
-      border-radius: 999px;
-      overflow: hidden;
-    }
-
-    .progress-fill {
-      width: 0%;
-      height: 100%;
-      background: var(--blue);
-      border-radius: inherit;
-      transition: width .1s linear;
-    }
-
-    .slide-count {
-      color: var(--muted);
-      font-size: 11px;
-      font-weight: 800;
-      white-space: nowrap;
-    }
-
-    .last-updated {
-      color: var(--muted-2);
-      font-size: 10px;
-      white-space: nowrap;
-    }
-
-    .status-screen {
-      position: fixed;
-      inset: 0;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      background: var(--bg);
-      z-index: 50;
-      padding: 30px;
-    }
-
-    .status-box {
-      width: min(600px, 100%);
-      padding: 36px;
-      border-radius: 22px;
-      background: #fff;
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-      text-align: center;
-    }
-
-    .status-box h1 {
-      margin: 0;
-      font-size: 30px;
-    }
-
-    .status-box p {
-      margin: 10px 0 0;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    @media (max-width: 1050px) {
-      .topbar { padding: 0 20px; }
-      .stage { padding: 20px; }
-      .brand-logo { width: 155px; }
-      .slide-main { grid-template-columns: 1fr; }
-      .next-panel {
-        border-left: 0;
-        border-top: 1px solid var(--line);
-        padding-left: 0;
-        padding-top: 18px;
-      }
-      .waiting-box { margin-top: 16px; }
-    }
-
-    @media (max-width: 760px) {
-      .topbar { height: auto; min-height: 84px; padding: 15px 16px; }
-      .brand-divider, .brand-subtitle { display: none; }
-      .brand-logo { width: 130px; height: 42px; }
-      .brand-title { white-space: normal; font-size: 18px; }
-      .live-area { gap: 8px; }
-      .clock { display: none; }
-      .stage { padding: 16px; }
-      .screen-date { display: none; }
-      .slide-shell { padding: 18px; border-radius: 18px; }
-      .current-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .person-name { font-size: 16px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#f6f8fc">
+<title>YPG India Wellness Carnival 2026 — Thank You</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden}
+body{
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  color:#152238;background:#f6f8fc;
+}
+.screen{height:100vh;display:grid;grid-template-rows:60% 40%;}
+.hero{
+  position:relative;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:28px 40px;overflow:hidden;
+  background:
+    radial-gradient(circle at 50% 35%,rgba(1,102,255,.055),transparent 36%),
+    #f6f8fc;
+  border-bottom:1px solid #e2e8f0;
+}
+.hero-inner{
+  width:min(1100px,92vw);display:flex;flex-direction:column;
+  align-items:center;
+}
+.eyebrow{
+  color:#0166ff;font-size:clamp(10px,.7vw,14px);font-weight:800;
+  letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px;
+}
+.logo{width:clamp(135px,12vw,220px);height:auto;margin-bottom:15px}
+.thank{
+  margin:0;font-size:clamp(58px,6.2vw,118px);line-height:.94;
+  font-weight:800;letter-spacing:-.055em;color:#152238;
+}
+.event{
+  margin-top:16px;font-size:clamp(21px,2vw,36px);font-weight:700;
+  letter-spacing:-.025em;
+}
+.copy{
+  max-width:850px;margin:12px auto 0;color:#667085;
+  font-size:clamp(13px,1vw,20px);line-height:1.55;font-weight:450;
+}
+.chip{
+  margin-top:18px;padding:9px 16px;border-radius:999px;
+  border:1px solid #d8e6ff;background:rgba(255,255,255,.85);
+  color:#174ea6;font-size:clamp(10px,.72vw,14px);font-weight:700;
+  box-shadow:0 8px 22px rgba(20,32,51,.045);
+}
+.volunteers{
+  display:flex;flex-direction:column;justify-content:center;
+  overflow:hidden;background:#fff;padding:20px 0 22px;
+}
+.kicker{
+  text-align:center;color:#0166ff;font-size:clamp(9px,.65vw,13px);
+  font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+}
+.vtitle{
+  text-align:center;margin-top:7px;font-size:clamp(23px,1.9vw,38px);
+  line-height:1.08;font-weight:750;letter-spacing:-.03em;
+}
+.vcopy{
+  text-align:center;max-width:900px;margin:8px auto 0;
+  padding:0 24px;color:#667085;font-size:clamp(11px,.85vw,16px);
+  line-height:1.4;
+}
+.ticker{
+  position:relative;overflow:hidden;width:100%;margin-top:20px;
+}
+.ticker:before,.ticker:after{
+  content:"";position:absolute;top:0;bottom:0;width:110px;z-index:2;
+  pointer-events:none;
+}
+.ticker:before{left:0;background:linear-gradient(90deg,#fff,transparent)}
+.ticker:after{right:0;background:linear-gradient(270deg,#fff,transparent)}
+.track{
+  display:flex;width:max-content;gap:12px;padding-left:100vw;
+  animation:scroll 72s linear infinite;will-change:transform;
+}
+.group{display:flex;gap:12px}
+.person{
+  flex:0 0 auto;display:flex;align-items:center;gap:10px;
+  height:52px;padding:0 17px 0 11px;border:1px solid #dfe5ee;
+  border-radius:14px;background:#fbfcfe;white-space:nowrap;
+  box-shadow:0 5px 16px rgba(20,32,51,.04);
+}
+.num{
+  width:28px;height:28px;display:grid;place-items:center;
+  border-radius:9px;background:#edf4ff;color:#0166ff;
+  font-size:10px;font-weight:800;
+}
+.person span:last-child{
+  font-size:clamp(12px,.86vw,17px);font-weight:650;letter-spacing:-.01em;
+}
+.footer{
+  display:flex;justify-content:center;align-items:center;gap:8px;
+  margin-top:14px;color:#7a869a;font-size:clamp(9px,.65vw,13px);
+  font-weight:650;
+}
+.dot{width:7px;height:7px;border-radius:50%;background:#18a957}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:900px){
+  .screen{grid-template-rows:57% 43%}
+  .hero{padding:22px}
+}
+@media(prefers-reduced-motion:reduce){.track{animation:none;transform:none;padding-left:20px}}
+</style>
 </head>
-
 <body>
-  <div class="app">
+<main class="screen">
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">YPG India</div>
+    <img class="logo"
+      src="https://www.image2url.com/r2/default/files/1789826520122-fba4a533-46aa-45a1-b6a8-2a070b2b7a63.png"
+      alt="YPG India">
+    <h1 class="thank">Thank You!</h1>
+    <div class="event">YPG India Wellness Carnival 2026</div>
+    <p class="copy">
+      Thank you for showing up, taking time for yourself, and making these
+      two days of wellness, connection, and care so special.
+    </p>
+    <div class="chip">23–24 September 2026 · Thank you for being part of it.</div>
+  </div>
+</section>
 
-    <header class="topbar">
-      <div class="brand">
-        <img
-          class="brand-logo"
-          src="https://www.image2url.com/r2/default/files/1789826520122-fba4a533-46aa-45a1-b6a8-2a070b2b7a63.png"
-          alt="YPG India Chapter"
-        >
-        <div class="brand-divider"></div>
-        <div class="brand-copy">
-          <div class="brand-title">YPG India Wellness Carnival 2026</div>
-          <div class="brand-subtitle">YPG India · Motorola Solutions</div>
-        </div>
-      </div>
-
-      <div class="live-area">
-        <div class="live-pill">
-          <span class="live-dot"></span>
-          LIVE
-        </div>
-        <div class="clock">
-          <div id="clockTime" class="clock-time">--:--</div>
-          <div id="clockDate" class="clock-date">--</div>
-        </div>
-      </div>
-    </header>
-
-    <main class="stage">
-      <div class="stage-head">
-        <div>
-          <div class="eyebrow">YPG India</div>
-          <h1 class="screen-title">Now Serving</h1>
-        </div>
-        <div id="eventDate" class="screen-date">Loading…</div>
-      </div>
-
-      <section class="slide-shell">
-        <div class="slide-top">
-          <div class="service-copy">
-            <div id="serviceName" class="service-name">Loading…</div>
-            <div id="serviceProvider" class="service-provider">—</div>
-            <div id="serviceMeta" class="service-meta">—</div>
-          </div>
-          <div id="serviceBadge" class="service-badge">—</div>
-        </div>
-
-        <div class="slide-main">
-          <section class="current-panel">
-            <div class="panel-head">
-              <div class="panel-label">Current</div>
-              <div id="currentTime" class="panel-time">—</div>
-            </div>
-            <div id="currentGrid" class="current-grid"></div>
-          </section>
-
-          <aside class="next-panel">
-            <div class="panel-head">
-              <div class="panel-label">Next Up</div>
-              <div id="nextCount" class="panel-time">0 people</div>
-            </div>
-
-            <div id="nextStack" class="next-stack"></div>
-
-            <div class="waiting-box">
-              <div id="waitingNumber" class="waiting-number">0</div>
-              <div class="waiting-label">Waiting after current</div>
-            </div>
-          </aside>
-        </div>
-
-        <div class="slide-footer">
-          <div class="progress-wrap">
-            <div class="progress-track">
-              <div id="progressFill" class="progress-fill"></div>
-            </div>
-            <div id="slideCount" class="slide-count">1 / 1</div>
-          </div>
-          <div id="lastUpdated" class="last-updated">Updating…</div>
-        </div>
-      </section>
-    </main>
+<section class="volunteers">
+  <div class="kicker">With gratitude</div>
+  <div class="vtitle">A huge thank you to our volunteers ❤️</div>
+  <div class="vcopy">
+    Your time, energy, coordination, and willingness to help made the
+    Wellness Carnival a huge hit.
   </div>
 
-  <div id="statusScreen" class="status-screen">
-    <div class="status-box">
-      <h1>Wellness Display</h1>
-      <p id="statusMessage">Waiting for the live display feed…</p>
+  <div class="ticker">
+    <div class="track">
+      <div class="group">
+        <div class="person"><span class="num">01</span><span>Shanthosh Nuka</span></div>
+<div class="person"><span class="num">02</span><span>Geethanjali S Kumar</span></div>
+<div class="person"><span class="num">03</span><span>Balaji R</span></div>
+<div class="person"><span class="num">04</span><span>Balasubramanya Chinnappa</span></div>
+<div class="person"><span class="num">05</span><span>Balu Mahendranath Saki</span></div>
+<div class="person"><span class="num">06</span><span>Banti Kiritbhai Patel</span></div>
+<div class="person"><span class="num">07</span><span>Bhavan Teja Reddy Gade</span></div>
+<div class="person"><span class="num">08</span><span>Chaitanya Kowsik</span></div>
+<div class="person"><span class="num">09</span><span>Charan Kumar Reddy Kannappareddy</span></div>
+<div class="person"><span class="num">10</span><span>Deerajkumar M</span></div>
+<div class="person"><span class="num">11</span><span>Geethika Chappidi</span></div>
+<div class="person"><span class="num">12</span><span>HEMANTH Kumar</span></div>
+<div class="person"><span class="num">13</span><span>Hitarth Vaghela</span></div>
+<div class="person"><span class="num">14</span><span>Jahnavi Logani</span></div>
+<div class="person"><span class="num">15</span><span>Nithish Shetty</span></div>
+<div class="person"><span class="num">16</span><span>Om Timbadiya</span></div>
+<div class="person"><span class="num">17</span><span>Poojitha Rachamadugu</span></div>
+<div class="person"><span class="num">18</span><span>Raaga Chakravarthy</span></div>
+<div class="person"><span class="num">19</span><span>Rajiv Hegde</span></div>
+<div class="person"><span class="num">20</span><span>Rishi Nikhilesh Damerla</span></div>
+<div class="person"><span class="num">21</span><span>Rithvik Banka</span></div>
+<div class="person"><span class="num">22</span><span>Arjun Rupavatia</span></div>
+<div class="person"><span class="num">23</span><span>Sahana B C</span></div>
+<div class="person"><span class="num">24</span><span>Saurabh Dwivedi</span></div>
+<div class="person"><span class="num">25</span><span>Shashidhar B Badiger</span></div>
+<div class="person"><span class="num">26</span><span>Smit Satani</span></div>
+<div class="person"><span class="num">27</span><span>Sriharish Varma</span></div>
+<div class="person"><span class="num">28</span><span>Thejeswara Rachamallu</span></div>
+<div class="person"><span class="num">29</span><span>Venkatesh A</span></div>
+<div class="person"><span class="num">30</span><span>Yug Gandhi</span></div>
+      </div>
+      <div class="group" aria-hidden="true">
+        <div class="person"><span class="num">01</span><span>Shanthosh Nuka</span></div>
+<div class="person"><span class="num">02</span><span>Geethanjali S Kumar</span></div>
+<div class="person"><span class="num">03</span><span>Balaji R</span></div>
+<div class="person"><span class="num">04</span><span>Balasubramanya Chinnappa</span></div>
+<div class="person"><span class="num">05</span><span>Balu Mahendranath Saki</span></div>
+<div class="person"><span class="num">06</span><span>Banti Kiritbhai Patel</span></div>
+<div class="person"><span class="num">07</span><span>Bhavan Teja Reddy Gade</span></div>
+<div class="person"><span class="num">08</span><span>Chaitanya Kowsik</span></div>
+<div class="person"><span class="num">09</span><span>Charan Kumar Reddy Kannappareddy</span></div>
+<div class="person"><span class="num">10</span><span>Deerajkumar M</span></div>
+<div class="person"><span class="num">11</span><span>Geethika Chappidi</span></div>
+<div class="person"><span class="num">12</span><span>HEMANTH Kumar</span></div>
+<div class="person"><span class="num">13</span><span>Hitarth Vaghela</span></div>
+<div class="person"><span class="num">14</span><span>Jahnavi Logani</span></div>
+<div class="person"><span class="num">15</span><span>Nithish Shetty</span></div>
+<div class="person"><span class="num">16</span><span>Om Timbadiya</span></div>
+<div class="person"><span class="num">17</span><span>Poojitha Rachamadugu</span></div>
+<div class="person"><span class="num">18</span><span>Raaga Chakravarthy</span></div>
+<div class="person"><span class="num">19</span><span>Rajiv Hegde</span></div>
+<div class="person"><span class="num">20</span><span>Rishi Nikhilesh Damerla</span></div>
+<div class="person"><span class="num">21</span><span>Rithvik Banka</span></div>
+<div class="person"><span class="num">22</span><span>Arjun Rupavatia</span></div>
+<div class="person"><span class="num">23</span><span>Sahana B C</span></div>
+<div class="person"><span class="num">24</span><span>Saurabh Dwivedi</span></div>
+<div class="person"><span class="num">25</span><span>Shashidhar B Badiger</span></div>
+<div class="person"><span class="num">26</span><span>Smit Satani</span></div>
+<div class="person"><span class="num">27</span><span>Sriharish Varma</span></div>
+<div class="person"><span class="num">28</span><span>Thejeswara Rachamallu</span></div>
+<div class="person"><span class="num">29</span><span>Venkatesh A</span></div>
+<div class="person"><span class="num">30</span><span>Yug Gandhi</span></div>
+      </div>
     </div>
   </div>
 
-  <script>
-    const DATA_URL = './display.json';
-    const DATA_REFRESH_MS = 5000;
-    const SLIDE_DURATION_MS = 3000;
-
-    let latestData = null;
-    let currentIndex = 0;
-    let currentServiceId = '';
-    let slideStartedAt = Date.now();
-
-    const $ = id => document.getElementById(id);
-
-    function escapeHtml(value) {
-      return String(value ?? '')
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
-    }
-
-    function formatTime(time) {
-      if (!time) return '';
-      const match = String(time).match(/^(\d{1,2}):(\d{2})$/);
-      if (!match) return time;
-
-      let hour = Number(match[1]);
-      const minute = match[2];
-      const suffix = hour >= 12 ? 'PM' : 'AM';
-      hour = hour % 12 || 12;
-      return `${hour}:${minute} ${suffix}`;
-    }
-
-    function formatRange(start, end) {
-      if (!start) return '';
-      return `${formatTime(start)}${end ? ` – ${formatTime(end)}` : ''}`;
-    }
-
-    function formatUpdatedTime(iso) {
-      if (!iso) return '';
-      const date = new Date(iso);
-      if (Number.isNaN(date.getTime())) return '';
-      return date.toLocaleTimeString('en-IN', {
-        hour: 'numeric',
-        minute: '2-digit',
-        second: '2-digit'
-      });
-    }
-
-    function updateClock() {
-      const now = new Date();
-      $('clockTime').textContent = now.toLocaleTimeString('en-IN', {
-        hour: 'numeric',
-        minute: '2-digit',
-        second: '2-digit'
-      });
-      $('clockDate').textContent = now.toLocaleDateString('en-IN', {
-        weekday: 'short',
-        day: '2-digit',
-        month: 'short',
-        year: 'numeric'
-      });
-    }
-
-    function showStatus(message) {
-      $('statusMessage').textContent = message;
-      $('statusScreen').style.display = 'flex';
-    }
-
-    function hideStatus() {
-      $('statusScreen').style.display = 'none';
-    }
-
-    function currentServices() {
-      return Array.isArray(latestData?.services)
-        ? latestData.services
-        : [];
-    }
-
-    function renderService(service, index, total) {
-      const current = Array.isArray(service?.nowServing)
-        ? service.nowServing
-        : [];
-
-      const next = Array.isArray(service?.nextPeople)
-        ? service.nextPeople.slice(0, 2)
-        : [];
-
-      const capacity = Math.max(
-        1,
-        Number(service?.displayCapacity || service?.capacity || 1)
-      );
-
-      $('serviceName').textContent = service?.serviceName || 'Wellness Screening';
-      $('serviceProvider').textContent = service?.provider || '';
-
-      const locationName = service?.location?.name || 'Wellness Screening Area';
-      $('serviceMeta').textContent = locationName;
-
-      $('serviceBadge').textContent =
-        `${capacity} ${capacity === 1 ? 'serving' : 'serving capacity'}`;
-
-      $('currentTime').textContent = service?.currentSlotStartTime
-        ? formatRange(service.currentSlotStartTime, service.currentSlotEndTime)
-        : '';
-
-      $('currentGrid').innerHTML = current.length
-        ? current.map((person, personIndex) => `
-            <div class="person-card">
-              <div class="person-index">${String(personIndex + 1).padStart(2, '0')}</div>
-              <div class="person-name">${escapeHtml(person.displayName || 'Employee')}</div>
-            </div>
-          `).join('')
-        : `
-            <div class="empty-card">
-              Nobody is currently being served
-            </div>
-          `;
-
-      $('nextCount').textContent = `${next.length} ${next.length === 1 ? 'person' : 'people'}`;
-
-      $('nextStack').innerHTML = next.length
-        ? next.map((person, nextIndex) => `
-            <div class="next-card">
-              <div class="next-left">
-                <div class="next-index">NEXT ${String(nextIndex + 1).padStart(2, '0')}</div>
-                <div class="next-name">${escapeHtml(person.displayName || 'Employee')}</div>
-              </div>
-              <div class="next-time">${formatTime(person.startTime)}</div>
-            </div>
-          `).join('')
-        : `
-            <div class="next-card">
-              <div class="next-left">
-                <div class="next-index">QUEUE</div>
-                <div class="next-name">No one waiting next</div>
-              </div>
-            </div>
-          `;
-
-      $('waitingNumber').textContent = String(service?.waitingCount ?? 0);
-      $('slideCount').textContent = `${index + 1} / ${total}`;
-      $('lastUpdated').textContent = latestData?.updatedAt
-        ? `Data updated ${formatUpdatedTime(latestData.updatedAt)}`
-        : 'Updating…';
-
-      $('eventDate').textContent = latestData?.event?.dateLabel || '';
-    }
-
-    function syncCurrentServiceIndex(services) {
-      if (!services.length) {
-        currentIndex = 0;
-        currentServiceId = '';
-        return;
-      }
-
-      if (currentServiceId) {
-        const matchingIndex = services.findIndex(
-          service => String(service?.serviceId || '') === currentServiceId
-        );
-
-        if (matchingIndex >= 0) {
-          currentIndex = matchingIndex;
-          return;
-        }
-      }
-
-      currentIndex = Math.min(currentIndex, services.length - 1);
-      currentServiceId = String(services[currentIndex]?.serviceId || '');
-    }
-
-    function renderCurrentSlide() {
-      const services = currentServices();
-
-      if (!services.length) {
-        showStatus('Waiting for the live display feed…');
-        return;
-      }
-
-      hideStatus();
-      syncCurrentServiceIndex(services);
-
-      const service = services[currentIndex];
-      currentServiceId = String(service?.serviceId || '');
-
-      renderService(service, currentIndex, services.length);
-    }
-
-    function advanceSlide() {
-      const services = currentServices();
-      if (services.length <= 1) {
-        slideStartedAt = Date.now();
-        return;
-      }
-
-      currentIndex = (currentIndex + 1) % services.length;
-      currentServiceId = String(services[currentIndex]?.serviceId || '');
-      slideStartedAt = Date.now();
-      renderCurrentSlide();
-    }
-
-    function updateProgress() {
-      const elapsed = Date.now() - slideStartedAt;
-      const percent = Math.min(100, (elapsed / SLIDE_DURATION_MS) * 100);
-      $('progressFill').style.width = `${percent}%`;
-    }
-
-    async function loadDisplay() {
-      try {
-        const response = await fetch(`${DATA_URL}?t=${Date.now()}`, {
-          cache: 'no-store'
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-
-        const data = await response.json();
-
-        if (!data || data.success !== true || !Array.isArray(data.services)) {
-          throw new Error('Invalid display data.');
-        }
-
-        latestData = data;
-        renderCurrentSlide();
-      } catch (error) {
-        if (!latestData) {
-          showStatus('Unable to load the live display feed. Retrying…');
-        }
-      }
-    }
-
-    setInterval(loadDisplay, DATA_REFRESH_MS);
-    setInterval(updateClock, 250);
-    setInterval(updateProgress, 100);
-    setInterval(advanceSlide, SLIDE_DURATION_MS);
-
-    updateClock();
-    updateProgress();
-    loadDisplay();
-  </script>
+  <div class="footer">
+    <span class="dot"></span>
+    <span>Thank you for making Wellness Carnival 2026 memorable.</span>
+  </div>
+</section>
+</main>
 </body>
 </html>
