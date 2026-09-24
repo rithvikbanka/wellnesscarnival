@@ -83,7 +83,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 61
+      "waitingCount": 59
     },
     {
       "serviceId": "SVC_BCA",
@@ -399,7 +399,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 36
+      "waitingCount": 37
     },
     {
       "serviceId": "SVC_EYE",
@@ -454,6 +454,12 @@
           "status": "CALLED"
         },
         {
+          "displayName": "Apoorv A.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "ACTIVE"
+        },
+        {
           "displayName": "Soumen J.",
           "startTime": "11:00",
           "endTime": "11:15",
@@ -470,15 +476,9 @@
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "ACTIVE"
-        },
-        {
-          "displayName": "Yatri D.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 50
+      "waitingCount": 51
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T04:55:37.336Z"
+  "updatedAt": "2026-09-24T04:57:36.557Z"
 }
