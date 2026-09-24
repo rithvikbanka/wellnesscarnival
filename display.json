@@ -176,18 +176,12 @@
         "floor": ""
       },
       "currentSlotStartTime": "10:30",
-      "currentSlotEndTime": "11:15",
+      "currentSlotEndTime": "11:30",
       "nowServing": [
         {
           "displayName": "Sanjanasn S.",
           "startTime": "10:30",
           "endTime": "10:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Sowmya R.",
-          "startTime": "10:45",
-          "endTime": "11:00",
           "status": "CALLED"
         },
         {
@@ -197,19 +191,11 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Sachin V.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Shivakumar N.",
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Chandran M.",
           "startTime": "11:15",
@@ -221,7 +207,9 @@
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Vandit K.",
           "startTime": "11:15",
@@ -239,9 +227,21 @@
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Charankumarreddy K.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Sairam P.",
+          "startTime": "11:30",
+          "endTime": "11:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 36
+      "waitingCount": 34
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:56:41.920Z"
+  "updatedAt": "2026-09-24T05:57:36.642Z"
 }
