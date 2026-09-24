@@ -503,14 +503,14 @@
       ],
       "nextPeople": [
         {
-          "displayName": "Vvijay K.",
-          "startTime": "11:00",
-          "endTime": "11:30",
+          "displayName": "Samreen K.",
+          "startTime": "11:30",
+          "endTime": "12:00",
           "status": "CALLED"
         }
       ],
-      "waitingCount": 8
+      "waitingCount": 7
     }
   ],
-  "updatedAt": "2026-09-24T07:17:38.257Z"
+  "updatedAt": "2026-09-24T07:18:37.568Z"
 }
