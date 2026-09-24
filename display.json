@@ -254,41 +254,16 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "12:00",
-      "currentSlotEndTime": "14:15",
-      "nowServing": [
-        {
-          "displayName": "Narasimhareddy K.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Charankumarreddy K.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Neeraj K.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Suraj K.",
-          "startTime": "12:00",
-          "endTime": "12:15",
-          "status": "CALLED"
-        },
+      "currentSlotStartTime": "",
+      "currentSlotEndTime": "",
+      "nowServing": [],
+      "nextPeople": [
         {
           "displayName": "Suhas K.",
           "startTime": "14:00",
           "endTime": "14:15",
           "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Sarvesh B.",
           "startTime": "14:00",
@@ -312,15 +287,9 @@
           "startTime": "14:15",
           "endTime": "14:30",
           "status": "ACTIVE"
-        },
-        {
-          "displayName": "Dhanush U.",
-          "startTime": "14:15",
-          "endTime": "14:30",
-          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 14
+      "waitingCount": 15
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -334,14 +303,8 @@
         "floor": ""
       },
       "currentSlotStartTime": "11:00",
-      "currentSlotEndTime": "11:30",
+      "currentSlotEndTime": "11:45",
       "nowServing": [
-        {
-          "displayName": "Ashish V.",
-          "startTime": "11:00",
-          "endTime": "11:15",
-          "status": "CALLED"
-        },
         {
           "displayName": "Geethika C.",
           "startTime": "11:00",
@@ -365,15 +328,15 @@
           "startTime": "11:15",
           "endTime": "11:30",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Poojitha R.",
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Shivakumar N.",
           "startTime": "11:30",
@@ -397,9 +360,15 @@
           "startTime": "13:30",
           "endTime": "13:45",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Jayesh T.",
+          "startTime": "13:30",
+          "endTime": "13:45",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 11
+      "waitingCount": 10
     },
     {
       "serviceId": "SVC_EYE",
@@ -512,5 +481,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:21:34.968Z"
+  "updatedAt": "2026-09-24T08:22:39.928Z"
 }
