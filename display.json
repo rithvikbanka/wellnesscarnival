@@ -97,14 +97,8 @@
         "floor": ""
       },
       "currentSlotStartTime": "10:00",
-      "currentSlotEndTime": "10:15",
+      "currentSlotEndTime": "10:30",
       "nowServing": [
-        {
-          "displayName": "Venkatesh A.",
-          "startTime": "10:00",
-          "endTime": "10:15",
-          "status": "CALLED"
-        },
         {
           "displayName": "Nagamadhuri P.",
           "startTime": "10:00",
@@ -128,15 +122,15 @@
           "startTime": "10:00",
           "endTime": "10:15",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Neha S.",
           "startTime": "10:15",
           "endTime": "10:30",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Nischitha M.",
           "startTime": "10:30",
@@ -159,6 +153,12 @@
           "displayName": "Ankitrajgupta G.",
           "startTime": "10:30",
           "endTime": "10:45",
+          "status": "CALLED"
+        },
+        {
+          "displayName": "Soumya R.",
+          "startTime": "10:45",
+          "endTime": "11:00",
           "status": "CALLED"
         }
       ],
@@ -478,7 +478,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 32
+      "waitingCount": 31
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T07:01:18.782Z"
+  "updatedAt": "2026-09-24T07:01:37.824Z"
 }
