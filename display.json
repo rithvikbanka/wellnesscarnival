@@ -96,10 +96,9 @@
         "area": "Wellness Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "",
-      "currentSlotEndTime": "",
-      "nowServing": [],
-      "nextPeople": [
+      "currentSlotStartTime": "13:45",
+      "currentSlotEndTime": "14:45",
+      "nowServing": [
         {
           "displayName": "Aryan C.",
           "startTime": "13:45",
@@ -131,7 +130,39 @@
           "status": "ACTIVE"
         }
       ],
-      "waitingCount": 10
+      "nextPeople": [
+        {
+          "displayName": "Chaitanya K.",
+          "startTime": "14:30",
+          "endTime": "14:45",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Ashish V.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Jayesh T.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Syednazir K.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Harish K.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
+        }
+      ],
+      "waitingCount": 5
     },
     {
       "serviceId": "SVC_BMD",
@@ -145,18 +176,12 @@
         "floor": ""
       },
       "currentSlotStartTime": "11:15",
-      "currentSlotEndTime": "13:45",
+      "currentSlotEndTime": "14:00",
       "nowServing": [
         {
           "displayName": "Vandit K.",
           "startTime": "11:15",
           "endTime": "11:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Ravi B.",
-          "startTime": "12:15",
-          "endTime": "12:30",
           "status": "CALLED"
         },
         {
@@ -176,15 +201,15 @@
           "startTime": "13:30",
           "endTime": "13:45",
           "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Syednazir K.",
           "startTime": "13:45",
           "endTime": "14:00",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Rakesh P.",
           "startTime": "14:00",
@@ -208,9 +233,15 @@
           "startTime": "14:45",
           "endTime": "15:00",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Praveen K.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 6
+      "waitingCount": 5
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -224,14 +255,8 @@
         "floor": ""
       },
       "currentSlotStartTime": "10:00",
-      "currentSlotEndTime": "10:45",
+      "currentSlotEndTime": "11:00",
       "nowServing": [
-        {
-          "displayName": "Rupali C.",
-          "startTime": "10:00",
-          "endTime": "10:15",
-          "status": "CALLED"
-        },
         {
           "displayName": "Shivakumar N.",
           "startTime": "10:00",
@@ -255,15 +280,15 @@
           "startTime": "10:30",
           "endTime": "10:45",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Husenabegum B.",
           "startTime": "10:45",
           "endTime": "11:00",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Vikas G.",
           "startTime": "11:00",
@@ -287,9 +312,15 @@
           "startTime": "11:00",
           "endTime": "11:15",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Neha S.",
+          "startTime": "11:00",
+          "endTime": "11:15",
+          "status": "CALLED"
         }
       ],
-      "waitingCount": 49
+      "waitingCount": 48
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -481,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:14:36.690Z"
+  "updatedAt": "2026-09-24T08:15:42.779Z"
 }
