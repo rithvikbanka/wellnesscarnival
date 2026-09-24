@@ -412,41 +412,15 @@
         "area": "Eye Screening Area",
         "floor": ""
       },
-      "currentSlotStartTime": "11:15",
-      "currentSlotEndTime": "12:15",
+      "currentSlotStartTime": "12:00",
+      "currentSlotEndTime": "14:00",
       "nowServing": [
-        {
-          "displayName": "Mddilshad A.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Vinitkumar P.",
-          "startTime": "11:30",
-          "endTime": "11:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Tulasi K.",
-          "startTime": "11:45",
-          "endTime": "12:00",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Mohammedasharudheen U.",
-          "startTime": "11:45",
-          "endTime": "12:00",
-          "status": "CALLED"
-        },
         {
           "displayName": "Soumya R.",
           "startTime": "12:00",
           "endTime": "12:15",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Sairam P.",
           "startTime": "12:00",
@@ -470,15 +444,41 @@
           "startTime": "13:45",
           "endTime": "14:00",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Narasimhareddy K.",
           "startTime": "14:00",
           "endTime": "14:15",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Alvin J.",
+          "startTime": "14:00",
+          "endTime": "14:15",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Gautam Z.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Poojitha R.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
+        },
+        {
+          "displayName": "Bhanuprakashs S.",
+          "startTime": "14:15",
+          "endTime": "14:30",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 17
+      "waitingCount": 13
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:48:36.804Z"
+  "updatedAt": "2026-09-24T07:49:43.572Z"
 }
