@@ -162,7 +162,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 53
+      "waitingCount": 52
     },
     {
       "serviceId": "SVC_BMD",
@@ -399,7 +399,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 28
+      "waitingCount": 27
     },
     {
       "serviceId": "SVC_EYE",
@@ -466,19 +466,19 @@
           "status": "CALLED"
         },
         {
-          "displayName": "Karnakota K.",
+          "displayName": "Vinitkumar P.",
           "startTime": "11:30",
           "endTime": "11:45",
           "status": "CALLED"
         },
         {
-          "displayName": "Vinitkumar P.",
-          "startTime": "11:30",
-          "endTime": "11:45",
+          "displayName": "Tulasi K.",
+          "startTime": "11:45",
+          "endTime": "12:00",
           "status": "CALLED"
         }
       ],
-      "waitingCount": 38
+      "waitingCount": 37
     },
     {
       "serviceId": "SVC_COUNSELLING",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T06:05:18.641Z"
+  "updatedAt": "2026-09-24T06:05:37.233Z"
 }
