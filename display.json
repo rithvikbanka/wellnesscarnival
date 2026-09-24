@@ -279,7 +279,7 @@
           "displayName": "Gayathri J.",
           "startTime": "14:15",
           "endTime": "14:30",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "nextPeople": [
@@ -305,13 +305,13 @@
           "displayName": "Chandran M.",
           "startTime": "14:30",
           "endTime": "14:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Santoshkumar D.",
           "startTime": "14:30",
           "endTime": "14:45",
-          "status": "ACTIVE"
+          "status": "CALLED"
         }
       ],
       "waitingCount": 10
@@ -488,5 +488,5 @@
       "waitingCount": 2
     }
   ],
-  "updatedAt": "2026-09-24T09:20:29.329Z"
+  "updatedAt": "2026-09-24T09:20:55.792Z"
 }
