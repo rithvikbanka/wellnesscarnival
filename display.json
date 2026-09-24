@@ -302,41 +302,15 @@
         "area": "Dental Screening Room",
         "floor": ""
       },
-      "currentSlotStartTime": "11:15",
-      "currentSlotEndTime": "13:45",
+      "currentSlotStartTime": "13:30",
+      "currentSlotEndTime": "14:15",
       "nowServing": [
-        {
-          "displayName": "Apoorv A.",
-          "startTime": "11:15",
-          "endTime": "11:30",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Shivakumar N.",
-          "startTime": "11:30",
-          "endTime": "11:45",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Praveen K.",
-          "startTime": "11:45",
-          "endTime": "12:00",
-          "status": "CALLED"
-        },
-        {
-          "displayName": "Bhadra M.",
-          "startTime": "11:45",
-          "endTime": "12:00",
-          "status": "CALLED"
-        },
         {
           "displayName": "Tejaswinisirisha M.",
           "startTime": "13:30",
           "endTime": "13:45",
           "status": "ACTIVE"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Jayesh T.",
           "startTime": "13:30",
@@ -360,15 +334,23 @@
           "startTime": "14:00",
           "endTime": "14:15",
           "status": "ACTIVE"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Sachin V.",
           "startTime": "14:15",
           "endTime": "14:30",
           "status": "ACTIVE"
+        },
+        {
+          "displayName": "Gautam Z.",
+          "startTime": "14:45",
+          "endTime": "15:00",
+          "status": "ACTIVE"
         }
       ],
-      "waitingCount": 6
+      "waitingCount": 2
     },
     {
       "serviceId": "SVC_EYE",
@@ -481,5 +463,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:23:35.423Z"
+  "updatedAt": "2026-09-24T08:24:35.889Z"
 }
