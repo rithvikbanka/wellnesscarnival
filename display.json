@@ -320,7 +320,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 27
+      "waitingCount": 21
     },
     {
       "serviceId": "SVC_DENTAL",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T08:19:37.337Z"
+  "updatedAt": "2026-09-24T08:20:36.735Z"
 }
