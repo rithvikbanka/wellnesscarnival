@@ -83,7 +83,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 59
+      "waitingCount": 58
     },
     {
       "serviceId": "SVC_BCA",
@@ -399,7 +399,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 37
+      "waitingCount": 36
     },
     {
       "serviceId": "SVC_EYE",
@@ -512,5 +512,5 @@
       "waitingCount": 9
     }
   ],
-  "updatedAt": "2026-09-24T04:57:36.557Z"
+  "updatedAt": "2026-09-24T04:58:36.979Z"
 }
