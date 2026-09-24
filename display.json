@@ -21,12 +21,6 @@
       "currentSlotEndTime": "10:30",
       "nowServing": [
         {
-          "displayName": "Dayananda B.",
-          "startTime": "10:00",
-          "endTime": "10:15",
-          "status": "CALLED"
-        },
-        {
           "displayName": "Tulasi K.",
           "startTime": "10:00",
           "endTime": "10:15",
@@ -49,15 +43,15 @@
           "startTime": "10:15",
           "endTime": "10:30",
           "status": "CALLED"
-        }
-      ],
-      "nextPeople": [
+        },
         {
           "displayName": "Deepaksudhan T.",
           "startTime": "10:15",
           "endTime": "10:30",
           "status": "CALLED"
-        },
+        }
+      ],
+      "nextPeople": [
         {
           "displayName": "Yash P.",
           "startTime": "10:30",
@@ -81,9 +75,15 @@
           "startTime": "10:30",
           "endTime": "10:45",
           "status": "CALLED"
+        },
+        {
+          "displayName": "Chandran M.",
+          "startTime": "10:45",
+          "endTime": "11:00",
+          "status": "CALLED"
         }
       ],
-      "waitingCount": 54
+      "waitingCount": 53
     },
     {
       "serviceId": "SVC_BCA",
@@ -162,7 +162,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 43
+      "waitingCount": 42
     },
     {
       "serviceId": "SVC_BMD",
@@ -512,5 +512,5 @@
       "waitingCount": 3
     }
   ],
-  "updatedAt": "2026-09-24T07:22:39.522Z"
+  "updatedAt": "2026-09-24T07:23:40.176Z"
 }
