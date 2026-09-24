@@ -162,7 +162,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 63
+      "waitingCount": 64
     },
     {
       "serviceId": "SVC_BMD",
@@ -451,7 +451,7 @@
           "displayName": "Soumen J.",
           "startTime": "11:00",
           "endTime": "11:15",
-          "status": "ACTIVE"
+          "status": "CALLED"
         },
         {
           "displayName": "Suhas K.",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T05:27:38.023Z"
+  "updatedAt": "2026-09-24T05:28:35.849Z"
 }
