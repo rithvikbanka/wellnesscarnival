@@ -241,7 +241,7 @@
           "status": "CALLED"
         }
       ],
-      "waitingCount": 24
+      "waitingCount": 23
     },
     {
       "serviceId": "SVC_POSTURE",
@@ -512,5 +512,5 @@
       "waitingCount": 8
     }
   ],
-  "updatedAt": "2026-09-24T06:43:37.653Z"
+  "updatedAt": "2026-09-24T06:45:41.584Z"
 }
